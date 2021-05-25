@@ -1,0 +1,19 @@
+{
+  "pageTitle"       : "Parts Manufacturers",
+  "pageInstruction1" : "A record for each of your parts OEMs will be created. The record will contain preferences for the manufacturer, as well as default accounting settings.<br/>",
+  "pageInstruction2" : "The accounting settings can be customized for each stocking group.<br/>",
+  "pageInstruction3" : "These will be the standard settings used for your stocking groups. If additional customization is needed on a stocking group level, you can define it later in the setup guide.<br/>",
+  "manufacturer"     : "Manufacturer",
+  "description"      : "Description",
+  "preferredStocking": "Preferred Stocking Group",
+  "counterTicketSale": "Counter Ticket Sale Accounts",
+  "internalSaleAccnt": "Internal Sale Account",
+  "countrSaleTaxable": "Counter Sale Taxable",
+  "countrSaleNonTax" : "Counter Sale Non-Tax",
+  "wholesaleIncentve": "Wholesale Comp Incentive",
+  "wholesaleAccnt"   : "Wholesale Comp Account",
+  "wholesaleTaxable" : "Wholesale Taxable",
+  "wholesaleNonTax"  : "Wholesale Non-Tax",
+  "saleAccount"      : "Sale Account",
+  "partsManufacturer": "Parts Manufacturer List"
+}

@@ -1,0 +1,13 @@
+{
+  "pageTitle"          : "Retirement Setup",
+  "pageInstruction"    : "Workbook page description.",
+  "maxEmployer"        : "Maximum Employer Matching Percent",
+  "matchingLimit"      : "Matching Limit of Total Employee Amount",
+  "deductionCode"      : "Deduction Code for 401K Contributions",
+  "cafeteriaBenefit"   : "Cafeteria Benefit Plan",
+  "maxYTDEmployer"     : "Maximum YTD Employer Will Contribute",
+  "maxPercentEmployer" : "Maximum Percent of Employee Match",
+  "maxYTDExecutive"    : "Maximum YTD Executive Employee Contribution",
+  "maxYTDEmployee"     : "Maximum YTD Employee Contribution",
+  "addContribution"    : "Additional Contribution for 50 & Over"
+}

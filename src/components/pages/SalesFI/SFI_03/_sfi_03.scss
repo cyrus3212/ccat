@@ -1,0 +1,23 @@
+@import '~@coxautokc/fusion-theme/dist/fusion-variables.scss';
+
+#insuranceSources {
+  .horizontal {
+    .select-options {
+      .selectInput.checkbox-inline {
+        display: inline-block;
+
+        input {
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .radio input[type="radio"],
+  .radio-inline input[type="radio"],
+  .checkbox input[type="checkbox"],
+  .checkbox-inline input[type="checkbox"] {
+    position: relative;
+    margin-left: -5px;
+  }
+}

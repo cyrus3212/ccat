@@ -1,0 +1,44 @@
+@import '../../../assets/styles/variables.scss';
+
+h4 {
+  font-size: 18px;
+  font-weight: initial;
+  margin-top: 20px;
+}
+
+.navbar-toggle {
+  padding: 27px 10px;
+}
+
+.block-text {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-left: -10px;
+
+  div {
+    font-size: 0.85rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: -10px;
+    color: gray;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  &--border-bottom {
+    border-bottom: 1px solid $color-light-gray;
+  }
+
+  strong {
+    color: #000;
+    font-weight: bold;
+  }
+}

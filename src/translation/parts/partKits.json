@@ -1,0 +1,11 @@
+{
+  "pageTitle"               : "Part Kits",
+  "pageInstruction"         : "A kit is a selection of parts that are always sold together such as the plugs, wires, oil, and filters for a tune-up. Since each model of vehicle may require a different set of parts for a tune up, you may find it easier to build kits for each tune-up rather than require the counterperson to remember or look up all of the parts for each tune-up. Once a kit is defined, it is billed out to a Counter Ticket or Repair Order just like a part number, by simply typing in the Kit Name.",
+  "partsKit"                : "Parts Kit",
+  "kit"                     : "Kit #",
+  "description"             : "Description",
+  "kitPrice"                : "Kit price",
+  "taxExempt"               : "Tax Exempt",
+  "partsInKit"              : "Parts In Kit",
+  "partsKitList"            : "Parts Kit List"
+}

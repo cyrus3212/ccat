@@ -1,0 +1,23 @@
+.cell-percentage-input {
+  position: relative;
+  width: 100%;
+
+  .input-wrapper {
+    margin-bottom: 0;
+  }
+
+  input {
+    padding-right: 45px;
+  }
+}
+
+#cell-filterpercentage {
+  position: absolute;
+  right: 5px;
+  top: 11px;
+  color: #7b7b7b;
+}
+
+.cell-percentage-padding {
+  padding-right: 10px;
+}

@@ -1,0 +1,21 @@
+{
+  "pageTitle"           : "General System Setup",
+  "pageInstruction"     : "Workbook page description.",
+  "firstDay"            : "First Day of Work Week ",
+  "firstDayDesc"        : "Enter the first day of your week. Typically, this is Sunday or Monday.",
+  "printHours"          : "Print Hours on Checks for All Employees",
+  "printHoursYes"       : "Hours worked will print on the salary and commission-based employees, as well as hourly employees (including technicians).",
+  "printHoursNo"        : "Hours worked will only print on hourly employees' paychecks (<i>not including technicians</i>).",
+  "printMatching"       : "Print Matching Amounts on Checks",
+  "printMatchingYes"    : "Employer contributions to deduction codes will print on the paycheck stub.",
+  "printMatchingNo"     : "Employer contribution amounts will not print on the paycheck stub.",
+  "useDirectDep"        : "Use Direct Deposit",
+  "useDirectDepYes"     : "You submit a direct deposit file to the bank when you complete your payroll.",
+  "useDirectDepNo"      : "Payroll direct deposit is not used at the dealership",
+  "timeRounding"        : "<b>Time Rounding for Time Cards</b><br><p>Please note that this setting only affects the total hours on the time card; the time card will still show the actual time the employee clocked in and out</p>",
+  "timeRoundingNearest" : "<b>Nearest Tenth of an Hour:</b> <br>Employees' hours will be rounded to the nearest 6 minutes.",
+  "timeRoundingDoNot"   : "<b>Do Not Round</b> <br> Hours not be rounded.<br>For example, if an employee clocks-in at 7:57, and out at 12:00, their total hours will show as 4:00, rather than 4:03",
+  "timeRoundingLabel"   : "This setting only applies if your manufacturer delivers electronic vehicle invoices to the Dealertrack DMS. Currently this includes Audi, AIM, Ford DORA, General Motors VII, Mazda, Mitsubishi, and Toyota TMS",
+  "doingBusinessAs"     : "Doing Business As",
+  "doingBusinessAsDesc" : "Please list dealership name that should print your W2s, W3s, 1099s, and 941s."
+}

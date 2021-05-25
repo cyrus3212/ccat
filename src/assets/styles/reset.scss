@@ -1,0 +1,546 @@
+@import '~antd/dist/antd.min.css';
+
+//TITLE TAG
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+//CHIPS
+// .rbt-token {
+//   background-color: $color-primary !important;
+//   color: white !important;
+//   padding: 4px 20px 3px 11px !important;
+//   border-radius: 20px !important;
+
+//   .rbt-token-remove-button {
+//     top: 0;
+//   }
+// }
+
+//INPUT
+input,
+select,
+textarea {
+  border: 1px solid #ddd !important;
+  border-radius: 5px !important;
+}
+
+table {
+  .has-error {
+    border: 1px solid $color-red !important;
+    border-radius: 5px !important;
+
+    .form-control {
+      border-color: $color-red !important;
+    }
+
+    .help-block {
+      display: none;
+      font-size: 12px;
+    }
+
+    &:hover {
+      .help-block {
+        display: block;
+      }
+    }
+  }
+}
+
+.input-side-by-side {
+  width: auto;
+}
+
+.rbt-input-multi {
+  overflow-y: scroll !important;
+  height: 37px !important;
+  border: 1px solid #ddd !important;
+  border-radius: 5px !important;
+  text-align: left;
+}
+
+input[type=radio] {
+  border: 0 !important;
+  box-shadow: none !important;
+
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+input[type=radio]::before {
+  content: '' !important;
+  width: 20px;
+  height: 20px;
+  background: white;
+  position: absolute;
+  left: 10px !important;
+  top: 1px !important;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+input[type=radio]::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  border-radius: 50%;
+  transition: 0.5s all ease;
+}
+
+input[type=radio]:checked::after {
+  background: #2b6bdd;
+}
+
+input[disabled],
+textarea[disabled],
+select[disabled] {
+  background: #ddd !important;
+  pointer-events: none;
+}
+
+input:focus {
+  border-color: #2b6bdd;
+  outline: 0 !important;
+  box-shadow: 1px 1px 9px #ddd !important;
+}
+
+//MODAL
+.modal-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+
+.ant-pagination {
+  margin-top: 0 !important;
+  padding: 15px !important;
+  background: white;
+  border: 1px solid #cacfd9;
+  border-top: 0;
+  border-radius: 3px;
+}
+
+.ant-pagination-options {
+  display: none !important;
+}
+
+//TABLE
+.ant-table {
+  overflow: visible !important;
+
+  table {
+    overflow: visible !important;
+  }
+}
+
+.ant-table-header {
+  padding-bottom: 20px !important;
+  margin-bottom: -20px !important;
+  overflow: auto !important;
+}
+
+//BUTTONS
+.btn {
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: $color-primary;
+  margin-right: 10px;
+
+  &:hover {
+    background-color: $color-primary;
+    opacity: 0.8;
+  }
+
+  &:focus {
+    background-color: $color-primary;
+    opacity: 0.8;
+  }
+}
+
+.btn-default {
+  margin-right: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+// DROPDOWN
+.dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+.rbt-token-disabled {
+  background-color: #e9ecef !important;
+}
+
+//CHECKBOX
+.ant-checkbox {
+  font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+  line-height: 1;
+  position: relative;
+  vertical-align: middle;
+  top: -0.09em;
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: #1890ff;
+}
+
+.ant-checkbox-checked::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  border: 1px solid #1890ff;
+  content: '';
+  animation: antCheckboxEffect 0.36s ease-in-out;
+  animation-fill-mode: both;
+  visibility: hidden;
+}
+
+.ant-checkbox:hover::after,
+.ant-checkbox-wrapper:hover .ant-checkbox::after {
+  visibility: visible;
+}
+
+.ant-checkbox-inner {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+.ant-checkbox-inner::after {
+  transform: rotate(45deg) scale(0);
+  position: absolute;
+  left: 4.57142857px;
+  top: 1.14285714px;
+  display: table;
+  width: 5.71428571px;
+  height: 9.14285714px;
+  border: 2px solid #fff;
+  border-top: 0;
+  border-left: 0;
+  content: ' ';
+  transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
+}
+
+.ant-checkbox-input {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ant-checkbox-indeterminate .ant-checkbox-inner::after {
+  content: ' ';
+  transform: scale(1);
+  position: absolute;
+  left: 2.42857143px;
+  top: 5.92857143px;
+  width: 9.14285714px;
+  height: 1.14285714px;
+}
+
+.ant-checkbox-indeterminate.ant-checkbox-disabled .ant-checkbox-inner::after {
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.ant-checkbox-checked .ant-checkbox-inner::after {
+  transform: rotate(45deg) scale(1);
+  position: absolute;
+  display: table;
+  border: 2px solid #fff;
+  border-top: 0;
+  border-left: 0;
+  content: ' ';
+  transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner,
+.ant-checkbox-indeterminate .ant-checkbox-inner {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.ant-checkbox-disabled {
+  cursor: not-allowed;
+}
+
+.ant-checkbox-disabled.ant-checkbox-checked .ant-checkbox-inner::after {
+  animation-name: none;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.ant-checkbox-disabled .ant-checkbox-input {
+  cursor: not-allowed;
+}
+
+.ant-checkbox-disabled .ant-checkbox-inner {
+  border-color: #d9d9d9 !important;
+  background-color: #f5f5f5;
+}
+
+.ant-checkbox-disabled .ant-checkbox-inner::after {
+  animation-name: none;
+  border-color: #f5f5f5;
+}
+
+.ant-checkbox-disabled + span {
+  color: rgba(0, 0, 0, 0.25);
+  cursor: not-allowed;
+}
+
+.ant-checkbox-wrapper {
+  font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.65);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-left: 8px;
+}
+
+.ant-checkbox-wrapper + span,
+.ant-checkbox + span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+// input[type="checkbox"]::before {
+//   content: '' !important;
+//   width: 20px;
+//   height: 20px;
+//   background: white;
+//   position: absolute;
+//   left: 10px !important;
+//   top: 1px !important;
+//   border-radius: 50%;
+//   border: 1px solid #ccc;
+// }
+
+// input[type="checkbox"]::after {
+//   content: '';
+//   width: 12px;
+//   height: 12px;
+//   position: absolute;
+//   left: 14px;
+//   top: 5px;
+//   border-radius: 50%;
+//   transition: 0.5s all ease;
+// }
+
+.ant-tabs {
+  // font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  // font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.65);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.ant-tabs-bar {
+  border-bottom: 1px solid #e8e8e8;
+  margin: 0 0 16px 0;
+  outline: none;
+  transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+:root .ant-tabs-tab-prev {
+  filter: none;
+}
+
+.ant-tabs-tab-prev {
+  left: 0;
+}
+
+.ant-tabs-tab-btn-disabled,
+.ant-tabs-tab-btn-disabled:hover {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.ant-tabs-tab-btn-disabled {
+  cursor: not-allowed;
+}
+
+.ant-tabs-tab-prev,
+.ant-tabs-tab-next {
+  user-select: none;
+  z-index: 2;
+  width: 0;
+  height: 100%;
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.45);
+  transition: width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ant-tabs-nav-container {
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  position: relative;
+  white-space: nowrap;
+  margin-bottom: -1px;
+  transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  zoom: 1;
+}
+
+.ant-tabs-nav-wrap {
+  overflow: hidden;
+  margin-bottom: -1px;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: #1890ff;
+  font-weight: 500;
+}
+
+.ant-tabs-nav .ant-tabs-tab {
+  display: inline-block;
+  height: 100%;
+  margin: 0 32px 0 0;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  position: relative;
+  transition: color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ant-tabs-top .ant-tabs-ink-bar-animated,
+.ant-tabs-bottom .ant-tabs-ink-bar-animated {
+  transition: width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-tabs-ink-bar {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  box-sizing: border-box;
+  height: 2px;
+  background-color: #1890ff;
+  transform-origin: 0 0;
+}
+
+.ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content-animated {
+  display: flex;
+  flex-direction: row;
+  // will-change: margin-left;
+  // transition: margin-left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content > .ant-tabs-tabpane-inactive {
+  opacity: 0;
+  height: 0;
+  padding: 0 !important;
+  pointer-events: none;
+}
+
+.ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content > .ant-tabs-tabpane {
+  flex-shrink: 0;
+  width: 100%;
+  transition: opacity 0.45s;
+  opacity: 1;
+}
+
+.ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content {
+  width: 100%;
+}
+
+.ant-table-scroll {
+  .ant-table-body {
+    max-height: 538px !important;
+    overflow: auto !important;
+
+    tr {
+      position: relative;
+
+      .dropdown-menu:not(.rbt-menu) {
+        top: auto;
+        bottom: 40px;
+      }
+
+      &:first-child,
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4) {
+        .dropdown-menu {
+          top: 40px;
+          bottom: auto;
+        }
+      }
+    }
+  }
+}
+
+.ant-table-fixed {
+  table-layout: fixed;
+}
+
+.ant-message {
+  font-size: 16px !important;
+}

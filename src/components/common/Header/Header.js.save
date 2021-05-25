@@ -1,0 +1,67 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import './_header.scss';
+import Navbar from 'react-bootstrap/lib/Navbar';
+import Nav from 'react-bootstrap/lib/Nav';
+import NavItem from 'react-bootstrap/lib/NavItem';
+import HeaderNav from '../HeaderNav';
+import { Link } from 'react-router-dom';
+import commonTranslate from '../../../translation/common.json';
+import { Redirect } from 'react-router-dom';
+
+const propTypes = {
+  menus: PropTypes.any,
+}
+
+const HeaderBar = ({ user, menus, onToggleUserMenu, isUserMenuVisible }) => {
+
+  return (
+    <div className="header">
+      <Navbar inverse collapseOnSelect fluid={true} staticTop={true} className="header-bar">
+        <Navbar.Header className="header-bar__nav-header">
+          <Navbar.Brand>
+            <Link to="/">{commonTranslate.dmsWorkbook}</Link>
+          </Navbar.Brand>
+          <Navbar.Toggle />
+        </Navbar.Header>
+        <Navbar.Collapse>
+          <Nav pullLeft>
+            <HeaderNav links={menus} />
+          </Nav>
+          <Nav pullRight>
+            <NavItem eventKey={1} href="#" className="help-icon">
+              <i className="far fa-question-circle"></i>
+              <span className="help-icon__content">{user.email}</span>
+            </NavItem>
+            <NavItem eventKey={2} href="#" className="header-user-menu" onClick={onToggleUserMenu}>
+              <span className="header-user-menu__text">
+                <span className="header-user-menu__name">{user.name}</span><br/>
+                <span className="header-user-menu__role">{user.role}</span>
+              </span>
+              <i className="fas fa-chevron-down"></i>
+                <span className="user-menu-dropdown">
+                  <ul>
+                    <li>{commonTranslate.administrator}</li>
+                    <li>ADAM / AD1 / 1111</li>
+                    <li>ADAM / AD2 / 2222</li>
+                    <li>ADAM / AD3 / 3333</li>
+                    <li>ADAM / AD4 / 4444</li>
+                    <li>{commonTranslate.logout}</li>
+                  </ul>
+                </span>
+
+            </NavItem>
+          </Nav>
+        </Navbar.Collapse>
+
+      </Navbar>
+      <div className="sub-header">{commonTranslate.setupEnterprise}</div>
+    </div>
+
+  );
+}
+
+HeaderBar.propTypes = propTypes
+
+export default HeaderBar
+

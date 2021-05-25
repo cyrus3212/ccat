@@ -1,0 +1,13 @@
+{
+  "pageTitle"               : "Internal Pay Types",
+  "pageInstruction"         : "Please enter the necessary Internal Labor Types from the RLT report into the following table. <strong><span style='color: gray'>Column G</span></strong> in that report contains the debit account that should be entered.",
+  "deletingAlert"           : "Deleting Payment Method Account",
+  "savingAlert"             : "Saving Payment Method Account",
+  "deleteError"             : "Unable to delete Payment Method Account",
+  "deleteSuccess"           : "Account Payable Vendor Type successfully deleted",
+  "saveSuccess"             : "Account Payable Vendor Type successfully updated",
+  "saveError"               : "Update Payment Method Account failed",
+  "typeCode"                : "Type Code",
+  "description"             : "Description",
+  "accountNum"              : "Account Number"
+}

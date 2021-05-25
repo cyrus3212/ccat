@@ -1,0 +1,13 @@
+{
+  "pageTitle"       : "County and City Tax Setup",
+  "pageInstruction1": "Please complete the following table for each county and city you accrue taxes for.<br/><br/>",
+  "pageInstruction2": "<b><span style='color: gray'>IMPORTANT: </span></b>Please provide the current year tax tables for your county and city. The Implementation Team will set up your local taxes for you for the current year based on the documentation you provide. Moving forward, you will be responsible for updating the rates whenever they change.",
+  "taxUnitName"     : "Tax Unit Name",
+  "liabilityAccounttoAccrueTax": "Liability Account to Accrue Tax",
+  "deletingAlert"   : "Deleting County City Tax",
+  "savingAlert"     : "Saving County City Tax",
+  "deleteError"     : "Unable to delete County City Tax",
+  "deleteSuccess"   : "County City Tax successfully deleted",
+  "saveSuccess"     : "County City Tax successfully updated",
+  "saveError"       : "Update County City Tax failed"
+}

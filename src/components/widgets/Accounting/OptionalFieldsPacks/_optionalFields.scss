@@ -1,0 +1,32 @@
+#text-acn13-coasearch {
+  position: absolute;
+  right: 5px;
+  top: 26px;
+  color: #7b7b7b;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#optional-table-list {
+  .ant-table-header {
+    .ant-table-fixed {
+      margin-bottom: -20px !important;
+    }
+  }
+}
+
+#optional-table-list .row .col-md-6 {
+  float: right;
+
+  #TableSearchInput-label {
+    display: none;
+  }
+
+  #TableSearchInput {
+    width: 280px;
+    float: right;
+    margin-bottom: 10px;
+  }
+}

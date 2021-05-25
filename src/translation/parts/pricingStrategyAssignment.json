@@ -1,0 +1,4 @@
+{
+  "pageTitle"               : "Pricing Strategy Assignments",
+  "pageInstruction"         : "A Pricing Strategy Assignment defines what pricing should be used when a part is sold, based on the type of sale or the customer who is purchasing the part. Price Levels are available for each sale type, plus an additional 90 levels that can be customized for your different customer types. The Pricing Strategy Assignment may be just the factory pricing (LIST, Trade, Cost), the factory pricing plus or minus a certain percentage (Cost + 25%, List - 10%), or based on a matrix."
+}

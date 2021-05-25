@@ -1,0 +1,92 @@
+@import '../../../assets/styles/variables.scss';
+
+.copy-data-wrapper {
+  padding: 5px 10px;
+
+  button.btn {
+    font-size: 16px;
+    width: 90px;
+    padding: 8px;
+  }
+
+  .btn-primary {
+    margin-right: 0;
+  }
+
+  .modal-header,
+  .modal-footer {
+    border: 0;
+
+    #ButtonRetry {
+      background: #d6002b !important;
+    }
+  }
+
+  .modal-footer {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .sectionSelectWrapper .modal-body .sectionSelectGroup {
+    width: 100%;
+    height: 270px;
+    overflow-y: scroll;
+  }
+
+  .sectionSelectWrapper .modal-body .sectionSelectGroup .rbt-input-wrapper {
+    width: 100%;
+  }
+
+  .sectionSelectWrapper .modal-body .title {
+    font-size: 18px;
+  }
+
+  .modal-body {
+    border-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .alert-modal-body {
+    margin-bottom: 30px;
+
+    p {
+      color: rgba(0, 0, 0, 0.67);
+    }
+  }
+
+  .circle-loader {
+    padding: 0;
+    margin: 0;
+    margin-top: -8px;
+  }
+
+  .message-caption {
+    margin-bottom: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .workbook-label {
+    float: left;
+    margin-right: 4px;
+    font-weight: bold;
+  }
+
+  .message-dependency {
+    margin-bottom: 10px;
+  }
+
+  .dependency {
+    width: 100%;
+    display: initial;
+  }
+
+  .message-info {
+    width: 100%;
+  }
+}
+
+.copy-data-modal.modal-dialog {
+  width: 700px !important;
+}

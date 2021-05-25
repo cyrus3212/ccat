@@ -1,0 +1,12 @@
+{
+  "reviewWorkbookPageTitle"         : "Complete this section",
+  "reviewWorkbookPageDesc"          : "Maximize your time and complete this workbook. Once completed your implementation manager will reach out to you to verify all your data is ready to be populated in your DMS production system!",
+  "accounting"                      : "Accounting",
+  "itemDescription"                 : "Item Description",
+  "accountAssignment"               : "Account Assignment",
+  "leandingFeesAndLeasingFrees"     : "Lending Fees & Leasing Fees",
+  "salesTaxGroup"                   : "Sales Tax Group",
+  "salesDepartmentEmployees"        : "Sales Department Employees",
+  "financeLeasingCompanies"         : "Finance/Leasing Companies",
+  "totalPercentage"                 : "80"
+}

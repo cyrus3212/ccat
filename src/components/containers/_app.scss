@@ -1,0 +1,63 @@
+@import '~@coxautokc/fusion-theme/dist/fusion-variables.scss';
+
+/* Starter Kit Main Styles
+ *
+ * Base styles for the starter kit.
+ *
+ */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+.main-layout {
+  background: #f9f9f9;
+  z-index: 99999;
+}
+
+.page-wrapper {
+  position: fixed;
+  overflow: auto;
+  right: 0;
+  bottom: 0;
+  left: 225px;
+  top: 50px;
+  padding: 0 15px;
+}
+
+.col-no-gutter {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.breadcrumb {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.page-header {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.dashboard {
+  min-height: 100vh;
+  padding: 130px 40px 20px;
+  background: #f9f9f9;
+
+  &--private {
+    padding: 130px 40px 20px 300px;
+  }
+
+  &.full-width {
+    padding: 0;
+  }
+}

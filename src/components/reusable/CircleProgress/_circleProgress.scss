@@ -1,0 +1,35 @@
+@import '../../../assets/styles/variables.scss';
+
+#app {
+  margin-top: 40px;
+}
+
+#progressInput {
+  margin: 20px auto;
+  width: 30%;
+}
+
+.circle-background,
+.circle-progress {
+  fill: none;
+}
+
+.circle-background {
+  stroke: #ddd;
+}
+
+.circle-progress {
+  transition: stroke-dashoffset 0.55s ease-out 0s !important;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  // stroke: #3e98c7;
+  // stroke-linecap: round;
+  // transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.circle-text {
+  font-size: 22px;
+  font-weight: 400;
+  // fill: #2765c9;
+}

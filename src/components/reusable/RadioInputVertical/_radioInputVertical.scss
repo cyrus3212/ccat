@@ -1,0 +1,41 @@
+@import '../../../assets/styles/variables.scss';
+
+.vertical {
+  .radio-options {
+    .form-group {
+      display: inline-block;
+      width: auto;
+
+      label {
+        text-align: left;
+        margin-left: 0 !important;
+        color: #9fa2a7;
+        margin-bottom: 25px;
+
+        b {
+          font-weight: bold;
+          color: #17181a;
+          display: inline-block;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    label.label-vertical {
+      margin-bottom: 20px;
+      font-size: 18px;
+
+      b {
+        color: #17181a;
+        margin-bottom: 10px;
+        display: inline-block;
+      }
+
+      p {
+        color: #9fa2a7;
+        font-size: 16px;
+        font-weight: normal;
+      }
+    }
+  }
+}

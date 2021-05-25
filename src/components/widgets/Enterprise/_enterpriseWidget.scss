@@ -1,0 +1,108 @@
+@import '../../../assets/styles/variables.scss';
+
+.custom-form-control {
+  margin-bottom: 40px;
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+    label {
+      min-width: 118px;
+      text-align: right;
+      margin-right: 10px;
+      color: gray;
+      font-size: 16px;
+    }
+
+    input {
+      max-width: 300px;
+    }
+
+    textarea {
+      max-width: 300px;
+    }
+  }
+}
+
+.labelGroupCode {
+  margin-left: -5px;
+}
+
+.hasError {
+  border: 1px solid $color-red;
+  border-radius: 5px;
+  position: relative;
+
+  &:hover {
+    span {
+      display: block;
+    }
+  }
+
+  .has-error {
+    border: 0 !important;
+  }
+
+  span {
+    word-break: break-word;
+    left: 0;
+    color: $color-red;
+  }
+}
+
+.add-row-button {
+  button,
+  a {
+    margin-top: 10px;
+    display: inline-block;
+  }
+}
+
+.table-delete-button {
+  background-color: transparent !important;
+  color: $color-red !important;
+  border: 1px solid transparent !important;
+  font-weight: bold;
+  outline: none !important;
+  box-shadow: none !important;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    background-color: transparent;
+    color: $color-red;
+    border: 1px solid transparent;
+    font-weight: bold;
+  }
+}
+
+.back-button {
+  margin-right: 10px;
+}
+
+.custom-modal-dialog {
+  .modal-dialog {
+    min-width: 750px;
+  }
+}
+
+.store-actions {
+  button {
+    margin-right: 5px;
+  }
+
+  a {
+    margin-right: 5px;
+  }
+}
+
+.dropdown-menu {
+  min-width: 180px;
+}
+
+.enterprise-error-message {
+  margin-left: 10px;
+}

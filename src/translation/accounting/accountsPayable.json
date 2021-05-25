@@ -1,0 +1,19 @@
+{
+  "pageTitle"        : "A/P Vendor Types",
+  "pageInstruction"  : "<div>Every A/P vendor is assigned a \"Vendor Type\". The vendor type controls the following things:</div><br/>",
+  "pageInstruction2" : "<div><ul><li><b>A/P general ledger account number</b></li><li><b>A/P discounts account number</b></li></ul></div>",
+  "pageInstruction3" : "<div>Most dealerships only have two vendor types: Regular vendors and Factory Payables</div><br/>",
+  "pageInstruction4" : "Additional vendor types can be set up for vendors who offer percentage discount if you pay within X number of days.",
+  "deletingAlert"    : "Deleting Account Payable Vendor Type",
+  "savingAlert"      : "Saving Account Payable Vendor Type",
+  "deleteError"      : "Unable to delete Account Payable Vendor Type",
+  "deleteSuccess"    : "Account Payable Vendor Type successfully deleted",
+  "saveSuccess"      : "Account Payable Vendor Type successfully updated",
+  "saveError"        : "Update Account Payable Vendor Type failed",
+  "description"      : "Description",
+  "apAccount"        : "A/P Account",
+  "discountAccount"  : "Discount Account",
+  "selectAPInvoicesbyAccount":  "Select A/P Invoices by Account",
+  "poAprovalsRequired" : "PO Approvals Required",
+  "emailTextApprovals" : "Email/Text Approval"
+}

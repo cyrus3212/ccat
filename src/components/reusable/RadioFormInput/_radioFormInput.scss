@@ -1,0 +1,44 @@
+@import '../../../assets/styles/variables.scss';
+
+#partsDiscounts {
+  .radioFormInput {
+    text-align: right;
+    display: inline-block;
+  }
+
+  .radioLabel {
+    text-align: left;
+  }
+}
+
+.radioFormInput {
+  .text-percentage-input {
+    position: static;
+  }
+
+  .amount-input {
+    input[type="text"] {
+      text-align: right;
+    }
+
+    #filteramount {
+      left: 10px;
+    }
+  }
+
+  .form-group {
+    .col-sm-4 {
+      width: 150px;
+    }
+
+    .col-sm-7 {
+      width: 200px;
+    }
+  }
+}
+
+.radioFormWrap {
+  .radioFormLabels {
+    display: flex;
+  }
+}

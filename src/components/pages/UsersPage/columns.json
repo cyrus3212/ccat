@@ -1,0 +1,82 @@
+[
+  {
+    "title": "",
+    "dataIndex": "inviteCount",
+    "refId": "rid",
+    "type": "notificationState"
+  },
+  {
+    "title": "User's Email",
+    "dataIndex": "email",
+    "refId": "rid",
+    "type": "textInput",
+    "isCheckValidation": "true",
+    "required": "true",
+    "onChange": "this.handleTextInputChange"
+  },
+  {
+    "title": "User's Name",
+    "dataIndex": "fullName",
+    "refId": "rid",
+    "type": "textInput",
+    "isCheckValidation": "true",
+    "required": "true",
+    "onChange": "this.handleTextInputChange"
+  },
+  {
+    "title": "Type of Access",
+    "dataIndex": "roleId",
+    "refId": "rid",
+    "type": "accessTypeSelect",
+    "isCheckValidation": "true",
+    "required": "true",
+    "options": "this.state.roles",
+    "onChange": "this.handleSearchSelectRoleChange"
+  },
+  {
+    "title": "Workbook Access",
+    "dataIndex": "workbooks",
+    "refId": "rid",
+    "type": "workbookSearchableSelect",
+    "isCheckValidation": true,
+    "required": true,
+    "options": "this.state.workbooks",
+    "onChange": "this.handleSearchableSelectChange"
+  },
+  {
+    "title": "Company Access",
+    "dataIndex": "stores",
+    "refId": "rid",
+    "type": "storeSearchableSelect",
+    "isCheckValidation": true,
+    "required": true,
+    "options": "this.state.stores",
+    "onChange": "this.handleSearchableSelectChange"
+  },
+  {
+    "title": "Login Id",
+    "dataIndex": "loginId",
+    "refId": "rid",
+    "type": "label",
+    "isCheckValidation": "true",
+    "required": "true",
+    "onChange": "this.handleTextInputChange"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "extraData",
+    "columnSortable": false,
+    "type": "actionButtons",
+    "actionButtons": [
+      {
+        "htmlId": "deleteButton",
+        "buttonStyle": "danger",
+        "className": "table-delete-button",
+        "text": "commonTranslate.delete",
+        "isDisabled": "this.handleDisabledDeleteButton",
+        "onClick": "this.handleShowErrorModal",
+        "type": "button"
+      }
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+@import '../../../assets/styles/variables.scss';
+
+.help-block-custom {
+  color: #c03;
+  // z-index: 99;
+  top: 40px;
+  min-height: 55px;
+}
+
+.input-group {
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+  input {
+    border-radius: 5px !important;
+  }
+}
+
+#text--coasearchinput--floating {
+  position: absolute;
+  right: 5px;
+  top: 14px;
+  color: #7b7b7b;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.coainput-floating-result {
+  position: absolute;
+  z-index: 9;
+  background: white;
+  width: 95%;
+  box-shadow: 1px 1px 1px #ddd;
+  list-style: none;
+  max-height: 186px;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+  padding: 0;
+  margin: -7px;
+  margin-left: -13px;
+
+  &--item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+
+    &:hover {
+      background: #ddd;
+      cursor: pointer;
+    }
+
+    &.loader {
+      text-align: center !important;
+    }
+  }
+}
+
+.text-coasearch-input {
+  position: relative;
+  width: 100%;
+
+  .input-wrapper {
+    margin-bottom: 0;
+  }
+
+  input {
+    padding-right: 45px;
+  }
+}
+
+.coasearch-padding {
+  padding-right: 25px;
+}
+

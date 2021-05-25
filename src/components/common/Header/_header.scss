@@ -1,0 +1,252 @@
+@import '~@coxautokc/fusion-theme/dist/fusion-variables.scss';
+
+/* Header
+ *
+ * Styling for the header bar which is an instace of Navbar.
+ * https://react-bootstrap.github.io/components.html#navigation
+ *
+ */
+
+.header {
+  // display: flex;
+  // justify-content: space-between;
+  font-size: 15px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+
+  ul {
+    padding: 0;
+    display: inline-block;
+
+    li {
+      display: inline-block;
+
+      &.disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+      }
+
+      a {
+        &:hover {
+          background: none !important;
+        }
+      }
+    }
+  }
+
+  .header-bar {
+    background: #293447;
+    color: white;
+    margin-bottom: 0;
+  }
+}
+
+.sub-header {
+  padding: 10px 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  font-size: 21px;
+  font-weight: bolder;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
+
+.navbar-brand {
+  line-height: 32px;
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: normal;
+}
+
+.navbar-left {
+  li {
+    &:hover,
+    &.active,
+    &.visited,
+    &:focus {
+      text-decoration: none;
+      background-color: #3e4859 !important;
+    }
+
+    a {
+      color: white;
+      padding: 28px;
+      text-decoration: none;
+      display: inline-block;
+    }
+  }
+}
+
+#header-user-menu {
+  padding: 6px 20px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #3e4859 !important;
+  }
+}
+
+.header-user-menu {
+  min-width: 210px;
+
+  a[role=button] {
+    display: flex !important;
+    align-items: center;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      background-color: #3e4859 !important;
+
+      .user-menu-dropdown {
+        display: block;
+
+        li:hover,
+        li.active {
+          background: #2b6bdd;
+          color: white;
+
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  &__text {
+    line-height: 16px;
+    margin-right: 43px;
+  }
+
+  &__admintext {
+    line-height: 24px;
+    margin-right: 60px;
+  }
+
+  &__role {
+    font-size: 12px;
+  }
+
+  &__name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+.help-icon {
+  font-size: 26px;
+  padding: 19px;
+  position: relative;
+
+  &__content {
+    position: absolute;
+    color: black;
+    padding: 20px;
+    min-width: 370px;
+    top: 90px;
+    right: 0;
+    transition: 0.35s all ease;
+    background: white;
+    box-shadow: 1px 1px 9px #ccc;
+    font-size: 14px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(166px);
+
+    &::before {
+      content: "";
+      height: 0;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-bottom: 20px solid white;
+      top: -15px;
+      position: absolute;
+      left: 158px;
+    }
+  }
+
+  &:hover {
+    background-color: #3e4859 !important;
+
+    .help-icon__content {
+      top: 82px;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.user-menu-dropdown {
+  // display: none;
+  position: absolute;
+  top: 78px;
+  background: white;
+  box-shadow: 1px 1px 9px #ddd;
+  color: black;
+  right: 0;
+  font-size: 14px;
+  min-width: 200px;
+
+  ul {
+    display: block;
+
+    li {
+      display: block;
+      width: 100%;
+
+      a {
+        display: block;
+        font-size: 14px;
+        padding: 10px;
+        color: black;
+
+        &:hover {
+          text-decoration: none;
+          background-color: none !important;
+        }
+      }
+
+      &:first-child {
+        border-bottom: 1px solid #ddd;
+      }
+
+      &:last-child {
+        border-top: 1px solid #ddd;
+      }
+    }
+  }
+}
+
+.navigation-store-list {
+  max-height: 441px;
+  overflow: auto;
+
+  li {
+    &:first-child {
+      border-bottom: 0 !important;
+    }
+
+    &:last-child {
+      border-top: 0 !important;
+    }
+
+    &.active {
+      a {
+        background: #2b6bdd;
+        color: white;
+      }
+    }
+
+    &:hover {
+      background: #2b6bdd !important;
+      color: white;
+
+      a {
+        color: white;
+      }
+    }
+  }
+}

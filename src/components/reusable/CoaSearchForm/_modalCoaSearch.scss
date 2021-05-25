@@ -1,0 +1,27 @@
+.custom-dialog {
+  width: 100% !important;
+  // top:20%;
+}
+
+.coa-search-table {
+  tr:hover {
+    cursor: pointer;
+  }
+
+  tr.selected {
+    background: #ccc;
+  }
+}
+
+.coa-radio-searchby {
+  margin-bottom: 0;
+
+  .form-group {
+    margin-bottom: 0;
+    top: 14px !important;
+  }
+}
+
+.coa-modal-loader {
+  margin-top: 40px;
+}

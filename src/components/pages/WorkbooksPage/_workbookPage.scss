@@ -1,0 +1,14 @@
+.workbook-page {
+  content: "";
+
+  &__header {
+    margin: 20px 20px 40px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+.container-dashboard {
+  margin-left: -100px;
+  width: 100%;
+}

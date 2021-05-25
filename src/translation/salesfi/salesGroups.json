@@ -1,0 +1,11 @@
+{
+  "pageTitle"          : "Vehicle Sales Groups",
+  "pageInstruction"    : "The functionality of Sale Groups in Dealertrack is similar to that F&I Journal Templates in your current DMS Provider. The sale group of the deal dictates which account numbers each item in the deal posts to when the deal is capped (finalized).",
+  "type"               : "Type",
+  "saleGroup"          : "Sale Group",
+  "description"        : "Description",
+  "manufacturer"       : "Manufacturer",
+  "usedVehicleSA"      : "Used Vehicle Sale Account",
+  "usedVehicleIA"      : "Used Vehicle Inventory Account",
+  "saleGroupsDef"      : "Sale Groups Definition"
+}

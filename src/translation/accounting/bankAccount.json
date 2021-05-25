@@ -1,0 +1,46 @@
+{
+  "pageTitle"               : "Bank Account Entry Table",
+  "pageInstruction"         : "Please use the table below to enter your bank accounts.",
+  "bankAccountName"         : "Bank Account Name",
+  "description"             : "Description",
+
+  "bankInformation"         : "Bank Information",
+  "bankContact"             : "Contact",
+  "street"                  : "Street",
+  "city"                    : "City",
+  "state"                   : "State",
+  "zip"                     : "Zip",
+  "phone"                   : "Phone",
+  "faxNumber"               : "Fax Number",
+  "phoneExt"                : "Phone Extension",
+
+  "glAccountNumber"         : "G/L Account Numbers",
+  "glAcctNumField"          : "GL Account Number",
+  "interestEarned"          : "Interest Earned Account Number",
+  "serviceCharge"           : "Service Charge Account Number",
+  "otherCharge"             : "Other Charge Account Number",
+
+  "checkingAccountNumbers"  : "Checking Account Numbers",
+  "cAccountNumber"          : "Bank Account No.",
+  "cRoutingNumber"          : "Bank Routing No.",
+  "cFractionalNumber"       : "Fractional",
+
+  "depositAccountNumbers"   : "Deposit Account Numbers",
+  "dAccountNumber"          : "Deposit Account No.",
+  "dRoutingNumber"          : "Deposit Routing No.",
+  "dFractionalNumber"       : "Fractional",
+
+  "additionalInformation"   : "Additional Information",
+  "positivePay"             : "Positive Pay",
+
+  "bankAccountList"         : "Bank Account List",
+
+  "save"                    : "Save",
+  "clear"                   : "Clear",
+  "markAsComplete"          : "Mark As Complete",
+  "saveAndContinue"         : "Save & Continue",
+
+  "savingBank"              : "Saving Bank Account",
+  "savingBankSuccess"       : "Saving Bank Account successful.",
+  "savingBankFailed"        : "Saving Bank Account failed."
+}

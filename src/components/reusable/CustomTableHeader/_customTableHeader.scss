@@ -1,0 +1,35 @@
+@import '../../../assets/styles/variables.scss';
+
+.custom-table-header-action {
+  position: relative;
+  padding-left: 20px;
+
+  img {
+    width: 20px;
+    position: absolute;
+    top: -10px;
+    right: 0;
+  }
+}
+
+.custom-table-header-wrapper {
+  padding: 5px 10px;
+
+  .circle-loader {
+    padding: 0;
+    margin: 0;
+    margin-top: -8px;
+  }
+
+  &__column {
+    font-weight: bold;
+  }
+}
+
+.modal-customer-table-header-footer {
+  padding: 15px;
+}
+
+.batch-update-loader-message {
+  margin-top: 20px;
+}

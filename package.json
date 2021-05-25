@@ -1,0 +1,37 @@
+{
+  "name": "ccat",
+  "version": "1.1.292",
+  "description": "",
+  "author": "cyrus",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "npm": ">=5"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "fusion start",
+    "build": "export REACT_APP_ENV=production && fusion build && mkdir dist && cp -r build/* dist",
+    "builddev": "export REACT_APP_ENV=development && fusion build && mkdir dist && cp -r build/* dist",
+    "buildint": "export REACT_APP_ENV=integration && fusion build && mkdir dist && cp -r build/* dist",
+    "test": "fusion test --env=jsdom",
+    "test:ci": "cross-env CI=false npm run test",
+    "coverage": "fusion test --coverage",
+    "lint": "fusion lint",
+    "lint:watch": "fusion lint -w",
+    "setup": "npm install && node buildTools/setup.js",
+    "build:int": "npm run buildint",
+    "build:dev": "npm run builddev",
+    "build:prod": "npm run build",
+    "analyze": "npm run build -- --analyze"
+  },
+  "dependencies": {
+    "@bridge/auth-js": "^1.2.1",
+    "@coxautokc/fusion": "13.2.2"
+  },
+  "keywords:": [
+    "fusion"
+  ]
+}

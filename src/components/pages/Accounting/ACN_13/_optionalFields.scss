@@ -1,0 +1,59 @@
+.optional-field {
+  th:nth-child(1),
+  td:nth-child(1) {
+    width: 150px;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2) {
+    width: 230px;
+  }
+
+  th:nth-child(3),
+  td:nth-child(3) {
+    width: 230px;
+  }
+
+  th:nth-child(4),
+  td:nth-child(4) {
+    width: 240px;
+
+    .rbt-input-multi .rbt-input-wrapper {
+      width: 190px;
+    }
+  }
+
+  th:nth-child(5),
+  td:nth-child(5) {
+    width: 150px;
+  }
+
+  th:nth-child(6),
+  td:nth-child(6) {
+    width: 153px;
+  }
+
+  th:nth-child(7),
+  td:nth-child(7) {
+    width: 175px;
+  }
+
+  th:nth-child(8),
+  td:nth-child(8) {
+    width: 145px;
+  }
+
+  th:nth-child(9),
+  td:nth-child(9) {
+    width: 145px;
+  }
+
+  th:nth-child(10),
+  td:nth-child(10) {
+    width: 210px;
+  }
+
+  .help-block-custom {
+    width: 190px;
+  }
+}

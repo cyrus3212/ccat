@@ -1,0 +1,8 @@
+{
+    "companyDetails"    : "Company Details",
+    "companyNumber"     : "Company Number",
+    "companyName"       : "Company Name",
+    "dtid"              : "DTID",
+    "successAddMessage" : "Company successfully added!",
+    "errorAddMessage"   : "Company already added!"
+}

@@ -1,0 +1,15 @@
+{
+  "pageTitle"               : "Service Writers",
+  "pageInstruction"         : "Workbook pages description here.",
+  "deletingAlert"           : "Deleting Payment Method Account",
+  "savingAlert"             : "Saving Payment Method Account",
+  "deleteError"             : "Unable to delete Payment Method Account",
+  "deleteSuccess"           : "Account Payable Vendor Type successfully deleted",
+  "saveSuccess"             : "Account Payable Vendor Type successfully updated",
+  "saveError"               : "Update Payment Method Account failed",
+  "serviceWriterID"         : "Service Writer ID",
+  "swName"                  : "Name",
+  "swInitials"              : "Initials",
+  "swPass"                  : "Password",
+  "empNum"                  : "Employee Number"
+}

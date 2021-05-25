@@ -1,0 +1,6 @@
+{
+  "successAddMessage" : "User successfully added!",
+  "errorAddMessage"   : "User already added!",
+  "pageTitle"         : "Who can help setup your DMS system?",
+  "instruction"      : "Help us identify who will also assist in setting up your dealership's information. Below, you'll find all of the employees that have been setup for your Enterprise or Store. Please help us assign them a type of access, which store(s) they can work with, and which workbooks should they work on.<br/><br/><strong>Admin</strong> - this will give them full capabilities to see configure as well as all workbooks will be editable to this type of user."
+}

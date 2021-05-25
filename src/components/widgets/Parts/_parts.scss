@@ -1,0 +1,29 @@
+@import '../../../assets/styles/variables.scss';
+
+#restockingCharge {
+  #filteramount {
+    position: absolute;
+    left: 6px;
+    top: 12px;
+    color: #7b7b7b;
+  }
+}
+
+.restocking-form {
+  .coainput-floating-result {
+    margin: 0;
+    text-align: left;
+  }
+
+  #text--coasearchinput--floating {
+    &.coasearch-padding {
+      padding-right: 0;
+      right: 15px;
+    }
+  }
+
+  .percentage-padding {
+    padding-right: 0;
+    right: 15px !important;
+  }
+}

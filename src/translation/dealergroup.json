@@ -1,0 +1,21 @@
+{
+
+    "welcomeWizard"             : "Welcome to DMS Onboarding Tool Automation Wizard",
+    "aboutSetupDealerGroup"     : "Setup Dealer Group details and company listings.",
+    "successDealerGroupUpdate"  : "Dealer Group Successfully updated.",
+    "failedDealerGroupUpdate"   : "Unable to update Dealer Group.",
+    "dealerGroupCode"           : "Dealership Group code",
+    "description"               : "Description",
+    "dealerGroupDescription"    : "Description",
+    "addDealerGroup"            : "Add Dealer Group",
+    "noData"                    : "No Data",
+    "created"                   : "Created",
+    "scrapedUploaded"           : "Scraped Uploaded",
+    "dealershipDetails"         : "Dealership Details",
+    "dealershipNumber"          : "Dealership Number",
+    "dealershipName"            : "Dealership Name",
+    "dtid"                      : "DTID",
+    "status"                    : "Status",
+    "errorMessage"              : "Failed to save the records. Please check the required fields. Thank you."
+
+}

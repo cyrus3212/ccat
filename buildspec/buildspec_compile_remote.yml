@@ -1,0 +1,38 @@
+version: 0.2
+
+env:
+  variables:
+    PublishDir: "build"
+phases:
+    install:
+      commands:
+        - AwsAccountId=$(aws sts get-caller-identity --query 'Account' --output text)
+        - AwsAccountId=$(echo $AwsAccountId | tr -d '\n' | tr -d '\r')
+        - aws s3 cp s3://$AwsAccountId-npm-config-$AWS_REGION/.npmrc .npmrc
+        - npm config set @coxautokc:registry https://artifactory.coxautoinc.com/artifactory/api/npm/cai-npm/
+        - npm config set @bridge:registry https://artifactory.coxautoinc.com/artifactory/api/npm/cai-npm/
+        - apt-get update && apt-get install -y jq
+    pre_build:
+      commands:
+        - echo Restore started on `date`
+        - npm install
+    build:
+      commands:
+        - echo Build started on `date`
+        - VERSION=$(jq -r '.version' package.json)
+        - SHA=$(git rev-parse --short=7 HEAD)
+        - SHORTNAME=${CODEBUILD_BUILD_ID%:*}
+        - ARTIFACT_NAME=$SHORTNAME-$VERSION-$SHA
+        - npm --no-git-tag-version version $VERSION-$SHA
+        - npm run build:dev
+        - ls ./$PublishDir
+    post_build:
+      commands:
+        - echo Build completed on `date`
+        - cd $PublishDir
+        - zip -r $ARTIFACT_NAME.zip *
+        - echo Build of version $ARTIFACT_NAME completed on `date`
+artifacts:
+  files:
+    - "**/$ARTIFACT_NAME.zip"
+  base-directory: "$PublishDir"

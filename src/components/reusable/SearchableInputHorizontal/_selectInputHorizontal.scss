@@ -1,0 +1,34 @@
+@import '../../../assets/styles/variables.scss';
+
+.horizontal {
+  .radio-options {
+    .form-group {
+      display: flex;
+      // width: 50px;
+    }
+  }
+}
+
+.horizontal-select-input {
+  .has-error {
+    select {
+      border-color: #ddd !important;
+      box-shadow: none !important;
+    }
+
+    .help-block {
+      display: none;
+    }
+  }
+
+  &.isRequired {
+    select {
+      border-color: #db4028 !important;
+    }
+
+    .help-block {
+      display: block;
+    }
+  }
+}
+

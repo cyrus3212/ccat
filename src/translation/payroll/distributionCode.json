@@ -1,0 +1,9 @@
+{
+  "pageTitle": "Distribution Codes",
+  "pageInstruction1": "Distribution codes are used to control the expense allocation for regular and non-regular pay (other pay codes), and the employer portion of federal and state taxes, and retirement (expenses). In some payroll systems, these are called \"department codes,\" \"pay codes,\" or distribution codes.<br/><br/>",
+  "pageInstruction2": "A different distribution code is required for each type of employee or position in the company. For example, salespersons, technicians, counterpersons, managers, owners, drivers, office, etc. each employee will be assigned only one distribution code.<br/><br/>",
+  "pageInstruction3": "Using the information below as a reference, please enter the distribution codes from your existing payroll system in the related tab of the attached spreadsheet.",
+  "distCode"        : "Distribution Code",
+  "description"     : "Description",
+  "distCodeList"    : "Distribution Codes List"
+}

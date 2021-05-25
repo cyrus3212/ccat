@@ -1,0 +1,966 @@
+{
+  "employeePermissions":[
+     {
+        "storeAccess":[
+           {
+              "id":"2364e79a-9bda-4456-9447-96f414079aaf",
+              "name":"Gorgeous Wooden Bike"
+           }
+        ],
+        "workboookAccess":[
+           {
+              "id":"6b563eba-4768-4119-946e-2d154483db0a",
+              "name":"Incredible Rubber Salad"
+           },
+           {
+              "id":"bcbaf1a5-1b61-4fc8-afc0-da29dffd44c0",
+              "name":"Licensed Metal Sausages"
+           }
+        ],
+        "typeAccess":3,
+        "firstName":"Tony",
+        "middleName":"Rolfson",
+        "lastName":"Robel",
+        "userEmail":"Marco_Koepp@yahoo.com"
+     },
+     {
+        "storeAccess":[
+           {
+              "id":"44a90b0c-df9e-40b5-a713-ffdbc15e0d63",
+              "name":"Unbranded Plastic Chips"
+           },
+           {
+              "id":"b9cb3b3e-43a1-4619-8b9c-a34e84ab8b73",
+              "name":"Fantastic Cotton Car"
+           }
+        ],
+        "workboookAccess":[
+           {
+              "id":"db159d62-9c37-4039-abea-850f63efdf9b",
+              "name":"Sleek Granite Cheese"
+           },
+           {
+              "id":"bf13e1d5-2d40-4fa8-8153-b9890ef255b3",
+              "name":"Sleek Soft Bike"
+           }
+        ],
+        "typeAccess":3,
+        "firstName":"Viola",
+        "middleName":"Gaylord",
+        "lastName":"Tromp",
+        "userEmail":"Sierra28@hotmail.com"
+     },
+     {
+        "storeAccess":[
+           {
+              "id":"13d647be-15f8-43c4-8fc4-957f6dbd3e22",
+              "name":"Handcrafted Wooden Computer"
+           }
+        ],
+        "workboookAccess":[
+           {
+              "id":"73e3c5e3-0eb6-414b-a3c6-3b64772ba85d",
+              "name":"Licensed Cotton Pants"
+           },
+           {
+              "id":"5adc63f4-6ec1-455d-9fae-bc57e2a6180b",
+              "name":"Ergonomic Cotton Pants"
+           },
+           {
+              "id":"d644d1ac-b63e-484f-b31b-1a0fa412e1b2",
+              "name":"Licensed Fresh Shirt"
+           }
+        ],
+        "typeAccess":3,
+        "firstName":"Opal",
+        "middleName":"Conroy",
+        "lastName":"Stark",
+        "userEmail":"Jakayla_Gibson64@hotmail.com"
+     }
+  ],
+  "menus":[
+    {
+       "id":9,
+       "key":"accounting",
+       "name":"accounting",
+       "label":"Accounting",
+       "description":"Generic Metal Pants",
+       "tooltip":"Accounting",
+       "submenus":[
+          {
+             "id":"7b9ffaf4-9a2b-44e4-93d2-db8a944f8476",
+             "name":"AccountingSubmenu1"
+          },
+          {
+             "id":"3bf06cd0-5af4-4b35-a238-772a6cf4db6d",
+             "name":"AccountingSubmenu2"
+          }
+       ]
+    },
+    {
+       "id":7,
+       "key":"sales",
+       "name":"sales",
+       "label":"Sales",
+       "description":"Fantastic Wooden Computer",
+       "tooltip":"Sales",
+       "submenus":[
+          {
+             "id":"09c59420-705b-48dd-a72f-bfa5403d06c5",
+             "name":"SalesSubmenu1"
+          },
+          {
+             "id":"6bfb562d-a0f9-4a2c-b7f6-c70ab0232677",
+             "name":"SalesSubmenu2"
+          },
+          {
+             "id":"fe63708e-3e75-4b8f-931e-3f6e806b7cae",
+             "name":"SalesSubmenu3"
+          }
+       ]
+    },
+    {
+       "id":6,
+       "key":"payroll",
+       "name":"payroll",
+       "label":"Payroll",
+       "description":"Awesome Cotton Car",
+       "tooltip":"Payroll",
+       "submenus":[
+          {
+             "id":"eb0667e4-bb16-4d01-9628-ee7b9532b248",
+             "name":"PayrollSubMenu1"
+          }
+       ]
+    }
+  ],
+  "enterprises":[
+    {
+      "isOk": "7d64f722-3622-4c42-b633-0af46d5b9e45",
+      "status": "Practical Metal Hat",
+      "data": [
+        {
+          "enterprise": {
+            "enterpriseCode": "3e649b77-1ed9-4a7d-969a-14a74f250d24",
+            "schemaId": "Tasty Plastic Cheese",
+            "description": "8e7f166a-342a-41a9-8a88-3223d59d1a73",
+            "status": "Unbranded Wooden Mouse",
+            "id": "40d64c0f-a748-4c9c-b920-f58b8131a0bc",
+            "validationResult": [
+              {
+                "code": "92cf37a7-d3b1-41e8-abfc-0ed8675e2f7b",
+                "message": "Fantastic Frozen Hat"
+              }
+            ]
+          },
+          "stores": [
+            {
+              "id": "ea598aea-1fc8-4216-ba74-1ccb1995a4ce",
+              "enterpriseId": "Intelligent Metal Bacon",
+              "name": "Incredible Cotton Hat",
+              "companyNumber": "Practical Rubber Gloves",
+              "validationResult": [
+                {
+                  "code": "ceed17d6-5981-4caf-bb0b-bb4f2118256a",
+                  "message": "Sleek Metal Chair"
+                }
+              ]
+            },
+            {
+              "id": "5c12b0fc-c010-4eca-be56-5e18424830d0",
+              "enterpriseId": "Fantastic Cotton Shoes",
+              "name": "Gorgeous Granite Computer",
+              "companyNumber": "Refined Steel Ball",
+              "validationResult": [
+                {
+                  "code": "276229ce-a7b9-4c43-b922-84d5d87e6dbc",
+                  "message": "Unbranded Soft Hat"
+                },
+                {
+                  "code": "4ecbb61d-2961-4c66-9513-82244f8261a1",
+                  "message": "Sleek Wooden Car"
+                }
+              ]
+            },
+            {
+              "id": "12b1b310-e1cd-43a2-b01b-59d0eafd1c59",
+              "enterpriseId": "Licensed Wooden Tuna",
+              "name": "Small Wooden Gloves",
+              "companyNumber": "Handmade Steel Bacon",
+              "validationResult": [
+                {
+                  "code": "71921530-9f4d-4b28-8dd3-d867480fe37f",
+                  "message": "Rustic Granite Shirt"
+                }
+              ],
+              "dtid": "fe9d1b7d-20ea-4d63-82f8-9b117c41426f",
+              "status": 8,
+              "statusText": "Completed"
+            },
+            {
+              "id": "8670bba5-f1d0-4098-a9e4-f6d9ef6b0cc3",
+              "enterpriseId": "Generic Plastic Mouse",
+              "name": "Intelligent Soft Gloves",
+              "companyNumber": "Tasty Plastic Chair",
+              "validationResult": [
+                {
+                  "code": "dbd4ea99-afa4-41ee-b810-35858859b5b6",
+                  "message": "Handmade Cotton Table"
+                },
+                {
+                  "code": "a2af5140-b4e5-437b-8e8c-a488bcf585c0",
+                  "message": "Awesome Cotton Shirt"
+                }
+              ],
+              "status": 1
+            },
+            {
+              "id": "d6c29fc7-dc19-49a9-8344-6d5e9e6e7c83",
+              "enterpriseId": "Generic Soft Pizza",
+              "name": "Gorgeous Concrete Soap",
+              "companyNumber": "Rustic Steel Chicken",
+              "validationResult": [
+                {
+                  "code": "8c32edb0-b297-49df-b617-b2282710ee6f",
+                  "message": "Licensed Steel Computer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "enterprise": {
+            "enterpriseCode": "9809bf20-757d-425d-a347-34110928ad68",
+            "schemaId": "Rustic Concrete Car",
+            "description": "61276f18-be86-49bc-a563-70a8dc74ef79",
+            "status": "Small Soft Bacon",
+            "id": "98c954eb-5e23-4507-add6-c9887b1f330f",
+            "validationResult": [
+              {
+                "code": "90c7dadf-9566-486e-9977-9cf3dc8e96e2",
+                "message": "Small Fresh Keyboard"
+              }
+            ]
+          },
+          "stores": [
+            {
+              "id": "54696257-7924-4f52-97ec-65ba1d220a8b",
+              "enterpriseId": "Licensed Granite Car",
+              "name": "Handcrafted Granite Computer",
+              "companyNumber": "Awesome Concrete Bacon",
+              "validationResult": [
+                {
+                  "code": "80183383-6bf3-4277-b547-195d728da337",
+                  "message": "Refined Soft Chair"
+                },
+                {
+                  "code": "65f020b2-d268-4cb1-adaa-43a51da0a09c",
+                  "message": "Licensed Cotton Mouse"
+                }
+              ],
+              "statusText": "Scraped Uploaded",
+              "status": 4
+            },
+            {
+              "id": "14415336-78cc-4179-975e-efbb294a2668",
+              "enterpriseId": "Tasty Steel Soap",
+              "name": "Fantastic Concrete Car",
+              "companyNumber": "Handcrafted Frozen Soap",
+              "validationResult": [
+                {
+                  "code": "027ad477-d60f-4500-b3e1-7662b4b2ab70",
+                  "message": "Ergonomic Frozen Chips"
+                },
+                {
+                  "code": "748f2e74-ec11-4c81-b0b8-b6ed01701d3f",
+                  "message": "Licensed Metal Hat"
+                }
+              ],
+              "status": 10,
+              "dtid": "946b17d1-71f2-4cbc-b0b7-d9be282406b3"
+            },
+            {
+              "id": "75e98f14-4d84-4ab3-9d98-8d5eb7493889",
+              "enterpriseId": "Fantastic Granite Keyboard",
+              "name": "Unbranded Wooden Sausages",
+              "companyNumber": "Small Cotton Pizza",
+              "validationResult": [
+                {
+                  "code": "9ae558a6-9a2a-4559-9d63-50446c6c9f4f",
+                  "message": "Gorgeous Frozen Ball"
+                },
+                {
+                  "code": "2f4b2eb1-3c0b-43ad-ad01-1b3f4dbacddc",
+                  "message": "Intelligent Frozen Pants"
+                }
+              ]
+            },
+            {
+              "id": "d7c88b9b-81ae-4cb7-84e4-8f7beafaa604",
+              "enterpriseId": "Tasty Metal Ball",
+              "name": "Intelligent Cotton Shirt",
+              "companyNumber": "Sleek Fresh Pants",
+              "validationResult": [
+                {
+                  "code": "3d2383c7-c643-4f06-8111-59bbe6915726",
+                  "message": "Ergonomic Concrete Pizza"
+                },
+                {
+                  "code": "e4108552-47db-47de-bc0d-32a09f0a3bbb",
+                  "message": "Practical Metal Bacon"
+                }
+              ],
+              "dtid": "b2bf3d40-69a7-47dd-91c1-e15b26403740",
+              "status": 6,
+              "statusText": "In-progress"
+            },
+            {
+              "id": "f55294df-309d-4f03-b2b7-7cf77f891635",
+              "enterpriseId": "Handmade Granite Gloves",
+              "name": "Small Fresh Salad",
+              "companyNumber": "Small Metal Chips",
+              "validationResult": [
+                {
+                  "code": "5f11a89d-a03b-4bcd-bfc5-ade4822f3728",
+                  "message": "Licensed Soft Tuna"
+                },
+                {
+                  "code": "b4cd02cb-fef6-4f17-8986-7e43d35823e8",
+                  "message": "Awesome Steel Soap"
+                }
+              ],
+              "dtid": "9213241e-f8aa-4f72-95ec-f2f06144240c",
+              "statusText": "Scraped Uploaded",
+              "status": 9
+            },
+            {
+              "id": "f63f6d31-8d8d-4b3e-b46e-a3a94329df3a",
+              "enterpriseId": "Rustic Rubber Computer",
+              "name": "Refined Soft Soap",
+              "companyNumber": "Small Granite Chips",
+              "validationResult": [
+                {
+                  "code": "21ca942f-ce9d-49f4-8067-51e05b53615e",
+                  "message": "Rustic Steel Shirt"
+                }
+              ],
+              "status": 9,
+              "dtid": "9a48af84-dd9b-40e7-887a-6c0191bd0ba8",
+              "statusText": "In-progress"
+            },
+            {
+              "id": "b2ab97c5-51dc-4e91-9c48-327a34ab7eea",
+              "enterpriseId": "Fantastic Fresh Chicken",
+              "name": "Intelligent Wooden Car",
+              "companyNumber": "Refined Soft Hat",
+              "validationResult": [
+                {
+                  "code": "9777d258-1ec8-426a-bf16-54b7b176650e",
+                  "message": "Small Cotton Chips"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "enterprise": {
+            "enterpriseCode": "2325f571-0d82-43e4-9879-e1248f83a4a0",
+            "schemaId": "Gorgeous Rubber Mouse",
+            "description": "6765f01e-4706-4469-9751-6bbf0a446787",
+            "status": "Intelligent Cotton Pants",
+            "id": "20a7e1e5-35f9-4e79-9a8b-858d1e4bf188",
+            "validationResult": [
+              {
+                "code": "fd54e68f-0b51-49b5-aa0e-001126ce7485",
+                "message": "Small Fresh Tuna"
+              }
+            ]
+          },
+          "stores": [
+            {
+              "id": "eff9984a-4707-4ebb-a5d5-e56852cb630a",
+              "enterpriseId": "Incredible Concrete Towels",
+              "name": "Unbranded Granite Table",
+              "companyNumber": "Awesome Soft Hat",
+              "validationResult": [
+                {
+                  "code": "e87e77a4-7831-41ff-8219-7a91f5838f8d",
+                  "message": "Rustic Wooden Gloves"
+                }
+              ],
+              "status": 10
+            },
+            {
+              "id": "c984d8a8-7b8c-4c3a-9af1-35cbf4203761",
+              "enterpriseId": "Handcrafted Soft Pants",
+              "name": "Awesome Concrete Table",
+              "companyNumber": "Tasty Rubber Shoes",
+              "validationResult": [
+                {
+                  "code": "6b90a284-7667-440a-9624-fdeafda99054",
+                  "message": "Unbranded Wooden Car"
+                },
+                {
+                  "code": "7b503df6-9729-408b-8a84-a5d6121aed63",
+                  "message": "Gorgeous Granite Sausages"
+                }
+              ],
+              "statusText": "In-progress",
+              "status": 8,
+              "dtid": "bdc089be-8464-44c0-a124-415542e815bf"
+            },
+            {
+              "id": "4209b72a-7097-451b-8e41-a188428f1bee",
+              "enterpriseId": "Intelligent Granite Tuna",
+              "name": "Handmade Granite Shirt",
+              "companyNumber": "Awesome Soft Bacon",
+              "validationResult": [
+                {
+                  "code": "b644b4c1-654e-4f76-9f14-c6d8041f6e2e",
+                  "message": "Licensed Metal Towels"
+                }
+              ],
+              "statusText": "In-progress",
+              "dtid": "6827da89-90a8-4002-b80d-77aa768edda4",
+              "status": 2
+            },
+            {
+              "id": "28f6b91f-0d8e-4ad8-b97c-736478b3b647",
+              "enterpriseId": "Licensed Metal Bacon",
+              "name": "Rustic Soft Sausages",
+              "companyNumber": "Awesome Soft Hat",
+              "validationResult": [
+                {
+                  "code": "f7970409-cc21-47de-b68d-8729e5f2e638",
+                  "message": "Handcrafted Frozen Fish"
+                }
+              ]
+            },
+            {
+              "id": "b394707c-74f2-4750-833c-03a3c5fc85b9",
+              "enterpriseId": "Intelligent Frozen Chicken",
+              "name": "Generic Frozen Chair",
+              "companyNumber": "Intelligent Wooden Fish",
+              "validationResult": [
+                {
+                  "code": "02d684d5-f805-42ee-8e5e-d38daed8db06",
+                  "message": "Ergonomic Steel Ball"
+                },
+                {
+                  "code": "f32c7697-621a-4a3f-a285-5c139ca5bd36",
+                  "message": "Rustic Concrete Shoes"
+                }
+              ],
+              "dtid": "b3c2a470-c3ca-4f84-9830-403826710a2d",
+              "statusText": "Scraped Uploaded"
+            },
+            {
+              "id": "dfc6e89a-6301-4529-9434-c3eba82b158c",
+              "enterpriseId": "Small Steel Chair",
+              "name": "Unbranded Granite Ball",
+              "companyNumber": "Handcrafted Rubber Table",
+              "validationResult": [
+                {
+                  "code": "b500c507-a90b-48a9-8147-72bdfac97bc9",
+                  "message": "Handcrafted Steel Bike"
+                }
+              ],
+              "statusText": "Created"
+            }
+          ]
+        },
+        {
+          "enterprise": {
+            "enterpriseCode": "c9ff84a6-894f-42f9-89be-6e26742b6c00",
+            "schemaId": "Sleek Frozen Chicken",
+            "description": "dec5e381-fdc1-42cb-89ea-677a356b115c",
+            "status": "Awesome Concrete Bacon",
+            "id": "a74275eb-5a11-4274-972d-da116e06b8f4",
+            "validationResult": [
+              {
+                "code": "b4ab93e3-b5c5-4aae-96fe-7c9b831ea5a4",
+                "message": "Generic Metal Tuna"
+              }
+            ]
+          },
+          "stores": [
+            {
+              "id": "f82d5c53-8c4c-4146-b858-f8efb8145f71",
+              "enterpriseId": "Refined Metal Chair",
+              "name": "Practical Concrete Hat",
+              "companyNumber": "Sleek Frozen Sausages",
+              "validationResult": [
+                {
+                  "code": "399e4b7a-f475-446d-b9aa-bf552228bfde",
+                  "message": "Practical Metal Car"
+                }
+              ]
+            },
+            {
+              "id": "b1b70526-f166-4d16-874e-2b620276ad69",
+              "enterpriseId": "Intelligent Plastic Pants",
+              "name": "Refined Metal Car",
+              "companyNumber": "Gorgeous Soft Mouse",
+              "validationResult": [
+                {
+                  "code": "c89d22d4-6bbe-460f-8df2-cddc00856413",
+                  "message": "Intelligent Plastic Pizza"
+                },
+                {
+                  "code": "004d213b-8400-469b-a3b2-88cace0e9ace",
+                  "message": "Licensed Plastic Cheese"
+                }
+              ],
+              "dtid": "e3c6eb18-cd95-4b2a-92eb-7939b929d25f"
+            },
+            {
+              "id": "b45c816f-6abd-4d46-8e0e-616e79f336d1",
+              "enterpriseId": "Sleek Metal Fish",
+              "name": "Handcrafted Frozen Tuna",
+              "companyNumber": "Unbranded Wooden Ball",
+              "validationResult": [
+                {
+                  "code": "a16661c8-b006-49a8-bb5c-40a80f28345f",
+                  "message": "Intelligent Rubber Bike"
+                }
+              ]
+            },
+            {
+              "id": "2815c3ec-cf5c-47cb-8253-aefb71f037fd",
+              "enterpriseId": "Licensed Plastic Fish",
+              "name": "Small Steel Shoes",
+              "companyNumber": "Awesome Fresh Table",
+              "validationResult": [
+                {
+                  "code": "4b6c2fb4-95b7-4bf7-960b-0c0381c1b8e1",
+                  "message": "Awesome Plastic Gloves"
+                }
+              ],
+              "statusText": "Scraped Uploaded",
+              "status": 9,
+              "dtid": "ef76deb6-d95b-4448-b7ba-6297226de628"
+            },
+            {
+              "id": "48838c00-fc16-4220-955b-44e475fd6543",
+              "enterpriseId": "Tasty Metal Car",
+              "name": "Gorgeous Rubber Hat",
+              "companyNumber": "Sleek Steel Chips",
+              "validationResult": [
+                {
+                  "code": "c2c8eb21-3dd2-42c3-a6dd-1d2289978b5a",
+                  "message": "Practical Metal Chips"
+                },
+                {
+                  "code": "84a65110-183e-46a1-80bd-30e50734626b",
+                  "message": "Sleek Concrete Bike"
+                }
+              ],
+              "dtid": "898adcb1-7bc1-4e7a-910f-1a1726699b40",
+              "status": 1,
+              "statusText": "In-progress"
+            },
+            {
+              "id": "b02fd27e-e86e-460a-a47a-65fb0de54640",
+              "enterpriseId": "Rustic Cotton Hat",
+              "name": "Handmade Plastic Gloves",
+              "companyNumber": "Practical Steel Sausages",
+              "validationResult": [
+                {
+                  "code": "50be1c93-8dad-45e1-a721-539ccf234ace",
+                  "message": "Ergonomic Plastic Shoes"
+                }
+              ],
+              "dtid": "cc05c10a-ac74-4780-8a67-c343d32d4b80"
+            }
+          ]
+        },
+        {
+          "enterprise": {
+            "enterpriseCode": "c0236bf6-ee39-47c6-a773-731291622a44",
+            "schemaId": "Refined Cotton Car",
+            "description": "79dfce05-bd72-4608-aa7b-4409ac6136ae",
+            "status": "Handcrafted Metal Chips",
+            "id": "a53542ea-8741-4013-8609-a799a74261a1",
+            "validationResult": [
+              {
+                "code": "3fbee2cf-7382-4caf-8083-091bcf72c0ef",
+                "message": "Handcrafted Wooden Soap"
+              },
+              {
+                "code": "ab5df33f-46b3-45b3-8997-b642edcc65ed",
+                "message": "Licensed Plastic Chicken"
+              }
+            ]
+          },
+          "stores": [
+            {
+              "id": "4bae7492-5e01-4681-8ff7-2738999e3610",
+              "enterpriseId": "Small Metal Chair",
+              "name": "Small Frozen Towels",
+              "companyNumber": "Handmade Steel Chips",
+              "validationResult": [
+                {
+                  "code": "ced052c4-e9d8-40fb-b856-79a57e061de7",
+                  "message": "Small Steel Hat"
+                }
+              ],
+              "dtid": "02c0d493-f6dc-4f42-a7b4-043aa72c1519",
+              "statusText": "In-progress"
+            },
+            {
+              "id": "b655caf2-2e29-42ad-8ba3-ca7053d947d7",
+              "enterpriseId": "Unbranded Granite Towels",
+              "name": "Unbranded Metal Soap",
+              "companyNumber": "Rustic Plastic Towels",
+              "validationResult": [
+                {
+                  "code": "483fe000-5a00-41d3-a417-5ff34c03763d",
+                  "message": "Small Soft Cheese"
+                },
+                {
+                  "code": "e43b3bfd-5059-453f-a282-fa038507b375",
+                  "message": "Fantastic Steel Soap"
+                }
+              ],
+              "dtid": "f355c285-9bde-4bbd-bbd3-dc646efc40f8",
+              "statusText": "Scraped Uploaded"
+            },
+            {
+              "id": "61e486d2-4940-4f3e-9155-f583e0e1fc32",
+              "enterpriseId": "Ergonomic Soft Shoes",
+              "name": "Intelligent Metal Towels",
+              "companyNumber": "Ergonomic Steel Sausages",
+              "validationResult": [
+                {
+                  "code": "6be0b26d-9c22-4437-bd67-ca857f3a54c0",
+                  "message": "Rustic Metal Mouse"
+                },
+                {
+                  "code": "0422e096-4ff1-4b30-bce6-ad28bdc5c1a8",
+                  "message": "Sleek Rubber Bike"
+                }
+              ],
+              "statusText": "Created",
+              "status": 1,
+              "dtid": "8475b63e-6c03-4ac8-a971-8ce242b18b08"
+            },
+            {
+              "id": "9e38eb05-b592-44cc-ad65-60edb71f1bfe",
+              "enterpriseId": "Unbranded Soft Table",
+              "name": "Unbranded Fresh Bacon",
+              "companyNumber": "Intelligent Frozen Hat",
+              "validationResult": [
+                {
+                  "code": "63e6a01b-f648-48a1-9db3-891454cf8a97",
+                  "message": "Sleek Wooden Car"
+                },
+                {
+                  "code": "462552e4-b70c-4e3c-a5d1-986d4e065bf7",
+                  "message": "Awesome Soft Fish"
+                }
+              ]
+            },
+            {
+              "id": "f1900f5f-21bf-435b-9979-625c4007d0a4",
+              "enterpriseId": "Ergonomic Concrete Chips",
+              "name": "Incredible Rubber Shirt",
+              "companyNumber": "Handmade Cotton Pizza",
+              "validationResult": [
+                {
+                  "code": "7c6fc639-dff3-4395-bf7f-b5160a8b773c",
+                  "message": "Handcrafted Cotton Fish"
+                },
+                {
+                  "code": "3f5aaac6-7cf6-4f57-b2c7-460c957b0f74",
+                  "message": "Rustic Plastic Salad"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "enterprise": {
+            "enterpriseCode": "3a35c2d0-0f05-4b34-8cef-b2af7753ad56",
+            "schemaId": "Refined Wooden Shirt",
+            "description": "55a4ac1a-0571-41df-9555-5f9062991e4f",
+            "status": "Awesome Cotton Hat",
+            "id": "c434daa3-c42d-4737-9a5d-300a3757f61e",
+            "validationResult": [
+              {
+                "code": "83f2a22e-5547-439a-904f-557e15fa081e",
+                "message": "Practical Plastic Ball"
+              },
+              {
+                "code": "949e492c-fb28-4f38-8796-2d956f3226ca",
+                "message": "Licensed Fresh Pants"
+              }
+            ]
+          },
+          "stores": [
+            {
+              "id": "1f12b042-0b2b-4312-853d-5e9e883267e5",
+              "enterpriseId": "Unbranded Fresh Shoes",
+              "name": "Handmade Cotton Bacon",
+              "companyNumber": "Practical Wooden Table",
+              "validationResult": [
+                {
+                  "code": "8d777a35-dd6a-486f-94c2-696803b1a4b5",
+                  "message": "Small Plastic Soap"
+                },
+                {
+                  "code": "345bde13-439e-4150-bcd4-8ebea54f1c49",
+                  "message": "Handmade Concrete Shoes"
+                }
+              ],
+              "status": 6,
+              "dtid": "342042cf-1537-4bfc-bec8-d95a0e1b1880",
+              "statusText": "In-progress"
+            },
+            {
+              "id": "1c46725e-5d4b-490d-9c41-e52fcafda4ba",
+              "enterpriseId": "Generic Soft Chair",
+              "name": "Practical Granite Bacon",
+              "companyNumber": "Sleek Concrete Chicken",
+              "validationResult": [
+                {
+                  "code": "9854babd-8f9b-433a-ae65-57e0b5b0d13d",
+                  "message": "Intelligent Plastic Bacon"
+                },
+                {
+                  "code": "a664ad72-386b-4d7b-b123-ab6970b8ea9a",
+                  "message": "Gorgeous Soft Pizza"
+                }
+              ],
+              "status": 10,
+              "statusText": "Created",
+              "dtid": "35cbf5f3-b5a7-4f8e-b0ed-b994969e0a5d"
+            },
+            {
+              "id": "ea59a2d4-fdf5-4e48-bbfc-46c13d72a007",
+              "enterpriseId": "Small Concrete Pants",
+              "name": "Generic Fresh Chips",
+              "companyNumber": "Intelligent Wooden Fish",
+              "validationResult": [
+                {
+                  "code": "79723ac2-502b-48b6-b6c1-d785e03c67dd",
+                  "message": "Practical Steel Ball"
+                }
+              ],
+              "dtid": "6aadb2bd-3c94-4020-b64e-efbbed30f74b"
+            },
+            {
+              "id": "92725940-3d6c-4753-90ed-298d4f9fd012",
+              "enterpriseId": "Sleek Concrete Chips",
+              "name": "Fantastic Frozen Chair",
+              "companyNumber": "Small Concrete Ball",
+              "validationResult": [
+                {
+                  "code": "2ad29736-68df-4ef5-ba0a-926c1f5b2187",
+                  "message": "Ergonomic Fresh Gloves"
+                },
+                {
+                  "code": "f14f42c5-b3f0-4662-b109-f82a7ef03218",
+                  "message": "Intelligent Cotton Shoes"
+                }
+              ],
+              "statusText": "Created"
+            },
+            {
+              "id": "964386fe-3f3e-4ff3-ba77-65b5ee79d89b",
+              "enterpriseId": "Incredible Soft Salad",
+              "name": "Handmade Steel Bike",
+              "companyNumber": "Handmade Frozen Table",
+              "validationResult": [
+                {
+                  "code": "1699574f-17c0-4c6c-88f4-63470f049021",
+                  "message": "Intelligent Steel Chips"
+                }
+              ],
+              "statusText": "Completed",
+              "status": 5
+            }
+          ]
+        },
+        {
+          "enterprise": {
+            "enterpriseCode": "b5eb9f8d-0b60-4190-8bea-358492c22a14",
+            "schemaId": "Rustic Steel Chips",
+            "description": "dea58283-45d1-4d6c-ab53-c49d2bd624e1",
+            "status": "Fantastic Frozen Hat",
+            "id": "44cc2a9d-7fc1-4437-90af-bc6059ca2ac5",
+            "validationResult": [
+              {
+                "code": "108b41af-d679-4eed-860c-99d6779ff852",
+                "message": "Tasty Metal Bacon"
+              },
+              {
+                "code": "60066e2e-df1b-4fcf-b14e-6c7dd1242153",
+                "message": "Intelligent Steel Shirt"
+              }
+            ]
+          },
+          "stores": [
+            {
+              "id": "63e87a97-c646-4d33-bc9f-06bfab52eebe",
+              "enterpriseId": "Incredible Wooden Chicken",
+              "name": "Licensed Concrete Car",
+              "companyNumber": "Gorgeous Concrete Computer",
+              "validationResult": [
+                {
+                  "code": "cb1f631d-692d-4513-a257-6f414ceaa942",
+                  "message": "Refined Steel Pizza"
+                }
+              ]
+            },
+            {
+              "id": "9cc86975-22dc-48a3-b6f1-8d3fbc40c06c",
+              "enterpriseId": "Handmade Cotton Computer",
+              "name": "Rustic Cotton Car",
+              "companyNumber": "Gorgeous Wooden Chicken",
+              "validationResult": [
+                {
+                  "code": "e4aa6bf2-efa5-469f-871c-fa3abd51bfc6",
+                  "message": "Intelligent Granite Sausages"
+                }
+              ]
+            },
+            {
+              "id": "2ec71eb6-9ca1-4ad1-aadc-36aa41168269",
+              "enterpriseId": "Intelligent Plastic Cheese",
+              "name": "Licensed Fresh Bike",
+              "companyNumber": "Rustic Plastic Ball",
+              "validationResult": [
+                {
+                  "code": "17703c8a-b6b9-49dd-af2d-40b879db0fcc",
+                  "message": "Incredible Concrete Fish"
+                },
+                {
+                  "code": "2aa77d0a-98e5-4cde-aa42-dd1e194b40b2",
+                  "message": "Ergonomic Frozen Bacon"
+                }
+              ],
+              "statusText": "In-progress",
+              "status": 3
+            },
+            {
+              "id": "0944a59a-d177-425a-9e93-dcf71e1a3ffc",
+              "enterpriseId": "Unbranded Concrete Bacon",
+              "name": "Ergonomic Soft Table",
+              "companyNumber": "Refined Rubber Shoes",
+              "validationResult": [
+                {
+                  "code": "86d52c4c-f890-4655-85e2-bb2520422a1d",
+                  "message": "Awesome Wooden Bacon"
+                }
+              ]
+            },
+            {
+              "id": "f4061006-6d8a-4dda-877a-2054cd0a2f22",
+              "enterpriseId": "Handcrafted Soft Soap",
+              "name": "Practical Frozen Chair",
+              "companyNumber": "Handmade Metal Computer",
+              "validationResult": [
+                {
+                  "code": "5aa7dc67-6430-4c1f-bf3b-946e694c8b79",
+                  "message": "Generic Granite Mouse"
+                },
+                {
+                  "code": "a61eef75-ff95-4fa4-99c4-c014f5ea41c3",
+                  "message": "Refined Granite Bike"
+                }
+              ],
+              "status": 6,
+              "statusText": "Created"
+            },
+            {
+              "id": "f03cdd26-1fcf-44c1-8bf7-135d6d446f36",
+              "enterpriseId": "Rustic Rubber Cheese",
+              "name": "Incredible Cotton Bacon",
+              "companyNumber": "Small Plastic Chicken",
+              "validationResult": [
+                {
+                  "code": "82666707-c211-4d1a-a085-7d76e215536a",
+                  "message": "Sleek Steel Car"
+                },
+                {
+                  "code": "fcef0752-3d12-46e1-8fbd-3b74380184bf",
+                  "message": "Licensed Granite Ball"
+                }
+              ]
+            },
+            {
+              "id": "8d1f34a9-8fc7-46fe-ba4e-8045dcdc71ee",
+              "enterpriseId": "Ergonomic Concrete Pizza",
+              "name": "Rustic Granite Fish",
+              "companyNumber": "Fantastic Rubber Sausages",
+              "validationResult": [
+                {
+                  "code": "31c03a7d-ed4f-4757-ab3e-b4a5d660e34d",
+                  "message": "Incredible Soft Cheese"
+                },
+                {
+                  "code": "7f424425-1e82-418d-aee2-70837bc69c06",
+                  "message": "Ergonomic Fresh Sausages"
+                }
+              ],
+              "dtid": "978595ec-3cb6-4f2c-b4a6-ff97485f420c",
+              "statusText": "Created"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stores":[
+     {
+        "id":"f73767ad-5776-444f-b15c-273d42d7ea48",
+        "enterpriseId":10,
+        "dtid":"f4ad7a98-d80d-486c-9374-7de026b282ca",
+        "code":"7cdb29b5-8f32-46e7-8c75-8530939dcc73",
+        "description":"Tasty Rubber Fish",
+        "companyNumber":4,
+        "status":"In-progress"
+     },
+     {
+        "id":"02235b7c-6340-49e8-8740-774bdcf702d0",
+        "enterpriseId":4,
+        "dtid":"3d9f26af-751c-405a-943f-46f54ae386b6",
+        "code":"045d8396-306d-4b48-964c-be27b360aa42",
+        "description":"Refined Frozen Salad",
+        "companyNumber":3,
+        "status":"In-progress"
+     },
+     {
+        "id":"8f1908b5-c3e0-4e51-9f8d-e178cfc7d96e",
+        "enterpriseId":4,
+        "dtid":"13b4b980-c8fe-4b8f-8a9b-5898b6aeac1c",
+        "code":"7e4c87a8-27cd-447c-8b93-c1b2ae8df678",
+        "description":"Incredible Concrete Car",
+        "companyNumber":11,
+        "status":"Pause"
+     },
+     {
+        "id":"bee34a51-cae3-4bbe-bb35-f4eb83bbf242",
+        "enterpriseId":3,
+        "dtid":"f1623d2e-2e6d-43de-963b-3229653394d0",
+        "code":"4d143f57-ae46-4a8e-8e1d-bd154b9eabb6",
+        "description":"Generic Metal Bike",
+        "companyNumber":13,
+        "status":"Pause"
+     },
+     {
+        "id":"a55610b7-3482-4dc9-9e24-10676025c304",
+        "enterpriseId":3,
+        "dtid":"0de0d7c4-e767-4a12-a025-de0e7aeecd08",
+        "code":"54f0ef46-5e71-4e69-81dc-d3b8c7a3a854",
+        "description":"Rustic Plastic Pants",
+        "companyNumber":8,
+        "status":"Pause"
+     }
+  ],
+
+  "setup":{
+     "id":"0571dede-2603-47fd-9cf9-a24521255b62",
+     "firstSetup":"true"
+  }
+}

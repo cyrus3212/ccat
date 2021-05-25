@@ -1,0 +1,9 @@
+{
+  "pageTitle"                  : "State Workers' Compensation Setup",
+  "pageInstruction"            : "Please answer the following questions for each state you have employees living in.",
+  "workersCompensationLimit"   : "Workers Compensation Limit",
+  "stateWorkersCompAcc"        : "State Workers Comp Account",
+  "workersCompensationClasses" : "<b>Workers' Compensation Classes</b><p>Complete the table below by recording the percentage and description for each of your workers' compensation classes. For example, employees in the “clerical” class might be 0.9% while employees in the “service” class might be 3.2% due to the different risks of their job roles.</p>",
+  "stateWorkersCompList"       : "State Worker's Compensation Setup List",
+  "taxUnitName"                : "Tax Unit Name"
+}

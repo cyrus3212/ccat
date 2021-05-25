@@ -1,0 +1,25 @@
+@import '../../../assets/styles/variables.scss';
+
+.modal-percentage-input {
+  position: relative;
+  width: 100%;
+
+  .input-wrapper {
+    margin-bottom: 0;
+  }
+
+  input {
+    padding-right: 45px;
+  }
+}
+
+#modal-filterpercentage {
+  position: absolute;
+  right: 5px;
+  top: 37px;
+  color: #7b7b7b;
+}
+
+.modal-percentage-padding {
+  padding-right: 10px;
+}

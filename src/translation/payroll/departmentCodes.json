@@ -1,0 +1,14 @@
+{
+  "pageTitle"       : "Department Codes",
+  "pageInstruction" : "Your employees can be assigned to different departments on their employee records. You are able to select or sort reports based on the department of the employees.<br/> Please list the departments you would like to set up:",
+  "savingAlert"     : "Saving Payment Method Account",
+  "deletingAlert"   : "Deleting Payment Method Account",
+  "deleteError"     : "Unable to delete Payment Method Account",
+  "deleteSuccess"   : "Account Payable Vendor Type successfully deleted",
+  "saveSuccess"     : "Account Payable Vendor Type successfully updated",
+  "saveError"       : "Update Payment Method Account failed",
+  "deptCode"        : "Department Code",
+  "deptDesc"        : "Description",
+  "attendanceDisp"  : "Attendance Display",
+  "secAppLink"      : "Security Application Link"
+}

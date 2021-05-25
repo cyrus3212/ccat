@@ -1,0 +1,362 @@
+@import '../../../assets/styles/variables.scss';
+
+.form-horizontal {
+  // margin-bottom: 40px;
+  // border: 1px solid #ddd;
+  // border-radius: 5px;
+  // padding: 40px 30px;
+  #generalDepartment {
+    label {
+      margin-top: 0;
+    }
+
+    .form-group.field-description {
+      .col-md-8 {
+        margin-left: 0;
+        padding-left: 0;
+      }
+    }
+  }
+
+  .list-textinput {
+    .form-group {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &.no-border {
+    padding: 0;
+    border: 0;
+  }
+
+  &.gen-department {
+    .show-grid {
+      margin-bottom: 35px;
+    }
+  }
+
+  .positive-pay {
+    .form-group {
+      margin-left: 10%;
+    }
+
+    label {
+      display: inline;
+    }
+  }
+
+  .show-grid {
+    // margin-bottom: 20px;
+
+    b {
+      font-size: 20px;
+      margin-bottom: 15px;
+      display: block;
+    }
+  }
+
+  .form-group {
+    // display: flex;
+    // align-items: center;
+    // margin: 10px;
+    margin-bottom: 7px;
+
+    label {
+      min-width: 100%;
+      text-align: right;
+      margin-right: 10px;
+      color: gray;
+      font-size: 16px;
+      vertical-align: middle;
+      margin-top: 8px;
+      padding-right: 10px;
+      font-weight: normal;
+    }
+
+    // input {
+    //   max-width: 300px;
+    // }
+
+    // textarea {
+    //   max-width: 300px;
+    // }
+  }
+
+  .radio-with-text {
+    .radio-options {
+      label {
+        &:last-child {
+          min-width: 450px;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  .radio-options {
+    label {
+      margin-top: 2px !important;
+    }
+  }
+
+  .radio-bottom-space {
+    padding-bottom: 30px;
+  }
+}
+
+.footer-action-btn {
+  margin-bottom: 30px;
+
+  button {
+    padding: 8px 35px;
+  }
+}
+
+.labelGroupCode {
+  margin-left: -5px;
+}
+
+.has-error {
+  border: 0 !important;
+
+  .form-control {
+    border-color: $color-red !important;
+  }
+}
+
+.hasError {
+  border: 1px solid $color-red;
+  border-radius: 5px;
+  position: relative;
+
+  &:hover {
+    span {
+      display: block;
+    }
+  }
+
+  span {
+    word-break: break-word;
+    left: 0;
+    color: $color-red;
+  }
+}
+
+.add-row-button {
+  button,
+  a {
+    margin-top: 10px;
+    display: inline-block;
+  }
+}
+
+.table-delete-button {
+  background-color: transparent !important;
+  color: $color-red !important;
+  border: 1px solid transparent !important;
+  font-weight: bold;
+  outline: none !important;
+  box-shadow: none !important;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    background-color: transparent;
+    color: $color-red;
+    border: 1px solid transparent;
+    font-weight: bold;
+  }
+}
+
+.back-button {
+  margin-right: 10px;
+}
+
+.custom-modal-dialog {
+  .modal-dialog {
+    min-width: 750px;
+  }
+}
+
+.store-actions {
+  button {
+    margin-right: 5px;
+  }
+
+  a {
+    margin-right: 5px;
+  }
+}
+
+.dropdown-menu {
+  min-width: 180px;
+}
+
+.field-cRoutingNumber-textInput {
+  width: 200px;
+}
+
+.gen-department {
+  .form-group {
+    label {
+      margin: 0;
+    }
+
+    input {
+      width: 60%;
+    }
+
+    &.field-description {
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 16px;
+    }
+  }
+}
+
+.wrap-form-box {
+  border: 1px solid #c4cad4;
+  padding: 40px 40px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-left: -14px;
+
+  &.no-border {
+    padding: 0;
+    border: 0;
+  }
+
+  &.gen-department {
+    .show-grid {
+      margin-bottom: 35px;
+    }
+  }
+
+  .positive-pay {
+    .form-group {
+      margin-left: 10%;
+    }
+
+    label {
+      display: inline;
+    }
+  }
+
+  .show-grid {
+    // margin-bottom: 20px;
+
+    b {
+      font-size: 20px;
+      margin-bottom: 15px;
+      display: block;
+    }
+  }
+
+  .form-group {
+    // display: flex;
+    // align-items: center;
+    // margin: 10px;
+    // margin-bottom: 7px;
+
+    label {
+      min-width: 100%;
+      text-align: right;
+      margin-right: 10px;
+      color: gray;
+      font-size: 16px;
+      vertical-align: middle;
+      margin-top: 8px;
+      padding-right: 10px;
+    }
+
+    // input {
+    //   max-width: 300px;
+    // }
+
+    // textarea {
+    //   max-width: 300px;
+    // }
+  }
+}
+
+.block-text {
+  b {
+    color: #000;
+  }
+}
+
+#splitAccount {
+  textarea {
+    height: 100px;
+  }
+}
+
+#vehicleInventory {
+  hr {
+    border-color: #c4cad4;
+    margin-bottom: 40px;
+  }
+
+  .title-with-p {
+    color: #9fa2a7;
+
+    b {
+      font-weight: bold;
+      color: #17181a;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+  }
+
+  .new-used-vehicles {
+    color: #17181a;
+    margin-top: 40px;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .form-group {
+    margin-bottom: 1px;
+  }
+}
+
+#optionalFieldsPacks {
+  .wrap-form-box {
+    label {
+      text-align: left;
+      color: #000;
+      margin-top: 0;
+    }
+
+    .form-group {
+      span {
+        color: #9fa2a7;
+      }
+    }
+
+    .optionalFPFormRow {
+      input {
+        height: 65px;
+        padding: 18px;
+      }
+    }
+  }
+
+  hr {
+    border-color: #c4cad4;
+    margin-bottom: 40px;
+  }
+}
+
+.service-pricing-table {
+  .ant-table-thead {
+    background: #f1f1f1;
+  }
+}

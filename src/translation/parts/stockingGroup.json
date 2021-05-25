@@ -1,0 +1,17 @@
+{
+  "pageTitle"               : "Stocking Groups (Sources)",
+  "pageInstruction"         : "Stocking Groups are used to differentiate or categorize parts. Typically, a stocking group is needed for each of your parts manufacturers plus an other group for non-OEM parts. By default, your stocking group settings will match the Standard settings you defined on the previous setup guide pages. However, each stocking group can be customized according to your needs.",
+  "stockGroup"              : "Stock Group #",
+  "description"             : "Description",
+  "manufacturer"            : "Manufacturer",
+  "tradeDefaultCost"        : "Trade Default % of Cost",
+  "listDefaultCost"         : "List Default % of Cost",
+  "counterTickets"          : "Counter Tickets",
+  "internal"                : "Internal",
+  "retailTaxable"           : "Retail Taxable",
+  "retailNonTaxble"         : "Retail Non-Taxable",
+  "wholesaleTaxable"        : "Wholesale Taxable",
+  "wholesaleNonTaxable"     : "Wholesale Non-Taxable",
+  "SaleAccountRepairOrder"  : "Sale Account Repair Orders",
+  "stockingGroups"          : "Stocking Groups"
+}

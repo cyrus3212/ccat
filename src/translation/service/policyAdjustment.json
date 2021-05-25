@@ -1,0 +1,16 @@
+{
+  "pageTitle"               : "Policy Adjustment Line Payment Methods",
+  "pageInstruction"         : "Please enter each of the policy types from the RLT report in the following table. Below is a cross reference showing where the information for each of the Dealertrack setup fields should come from on the RLT report:",
+  "deletingAlert"           : "Deleting Payment Method Account",
+  "savingAlert"             : "Saving Payment Method Account",
+  "deleteError"             : "Unable to delete Payment Method Account",
+  "deleteSuccess"           : "Account Payable Vendor Type successfully deleted",
+  "saveSuccess"             : "Account Payable Vendor Type successfully updated",
+  "saveError"               : "Update Payment Method Account failed",
+  "policyAdjustmentCode"    : "Policy Adjustment Code",
+  "description"             : "Description",
+  "linePaymentMethod"       : "Line Payment Method",
+  "policyAdjustment"        : "Policy Adjustment Account",
+  "laborRate"               : "Labor Rate",
+  "partsPricing"            : "Parts Pricing"
+}

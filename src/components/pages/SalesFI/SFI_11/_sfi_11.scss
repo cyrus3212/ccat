@@ -1,0 +1,41 @@
+@import "~@coxautokc/fusion-theme/dist/fusion-variables.scss";
+
+#financeCompanies {
+  .download-btn {
+    img {
+      margin-right: 15px;
+    }
+
+    label {
+      color: #2968d3;
+      font-size: 20px;
+    }
+  }
+
+  // .hide-filter {
+  //   display: none;
+  // }
+
+  #searchButton {
+    height: 38px;
+  }
+
+  #filtersubmit {
+    right: 25px;
+  }
+}
+
+.finance-loading-state {
+  margin-top: 15px;
+}
+
+#finance-companies-table {
+  .ant-table-header {
+    padding-bottom: 0 !important;
+  }
+
+  th:first-child,
+  td:first-child {
+    width: 60px;
+  }
+}

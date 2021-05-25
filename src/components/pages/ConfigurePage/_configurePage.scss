@@ -1,0 +1,44 @@
+.configure-page {
+  padding: 10px;
+
+  &__form {
+    // background: white;
+
+    &-header {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.form-header__input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.configure-table {
+  position: relative;
+
+  .store-select {
+    position: absolute;
+    right: 300px;
+    z-index: 9;
+
+    .form-group {
+      display: inline-block;
+      margin-right: 5px;
+      width: auto;
+    }
+
+    span {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+
+  th:nth-child(2),
+  td:nth-child(2) {
+    width: 20px;
+  }
+}

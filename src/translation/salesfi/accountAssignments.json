@@ -1,0 +1,19 @@
+{
+  "pageTitle"          : "Let's start with account assignments",
+  "pageInstruction"    : "This section covers the general ledger accounts to use when capping deals",
+  "cashReceipts"       : "Cash Receipts",
+  "cachReceiptsDesc"   : "Record the account that is credited when a down payment is received. This account will be debited for the down payment the deal is capped, and is usually the vehicle receivable account.",
+  "cachReceipts"       : "Account Payable",
+  "accntPayableDesc"   : "Record your regular accounts payable account (not the trade lien payoff account).",
+  "ovrUnderAllowance"  : "Over/Under Allowance",
+  "ovrUnderAllowDesc"  : "Record the account that the trade over/under allowance should post to. Most often this is posted to the vehicle cost of sale account, and affects the vehicle gross. If you charge this to the vehicle's cost of sale account, record \"COSTOFSALE\" in this field.",
+  "tradeLienPayoff"    : "Trade Lien Payoff",
+  "tradeLienPayoffDesc": "Record the trade lien payoff account.",
+  "commissionPayable"  : "Commission Payable",
+  "commPayableDesc"    : "If the expenses for sales commissions are posted at the time the deal is posted to accounting, list commissions payable account. If sales commissions are posted to the expense accounts when paychecks are cut, this may be left blank.",
+  "outSdLienHolder"    : "Outside Lien Holder Receivable (Cash Deal)",
+  "outSdLienHlderDesc" : "Record the account to be debited with the contract amount if the customer is bringing check from an outside lien holder it has not arrived when the deal is capped. Typically, this is the vehicle receivables or the contracts in transit account.",
+  "savingAlert"        : "Saving Account Assignments.",
+  "saveSuccess"        : "Account Assignments successfully updated",
+  "saveError"          : "Update Account Assignments failed"
+}

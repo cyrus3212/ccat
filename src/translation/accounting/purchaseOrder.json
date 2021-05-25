@@ -1,0 +1,14 @@
+{
+  "pageTitle"       : "Purchase Order Types",
+  "pageInstruction" : "Purchase order types control the default debit account number on a purchase order. For example, the parts inventory account would be set up as the default account number for the \"Parts\" purchase order type. When the parts department's purchase orders are posted, the parts inventory account will be debited, and the payables account will be credited. This helps ensure that your purchase orders post to the right accounts when someone unfamiliar with the chart of accounts opens a purchase order.",
+  "deletingAlert"   : "Deleting Purchase Order",
+  "savingAlert"     : "Saving Purchase Order",
+  "deleteError"     : "Unable to delete Purchase Order",
+  "deleteSuccess"   : "Purchase Order successfully deleted",
+  "saveSuccess"     : "Purchase Order successfully updated",
+  "saveError"       : "Update Purchase Order failed",
+  "typeCode"        : "Type Code",
+  "description"     : "Description",
+  "accNumber"       : "Account Number",
+  "partsPO"         : "Parts Purhase Order"
+}

@@ -1,0 +1,41 @@
+@import '../../../assets/styles/variables.scss';
+
+.search-input-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -10px;
+
+  #searchButton {
+    margin-left: 10px;
+  }
+
+  #filter {
+    padding-right: 40px;
+  }
+}
+
+.search-input {
+  position: relative;
+  width: 100%;
+
+  .input-wrapper {
+    margin-bottom: 0;
+  }
+}
+
+#filtersubmit {
+  position: absolute;
+  z-index: 1;
+  right: 18px;
+  top: 11px;
+  color: #7b7b7b;
+  cursor: "pointer";
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.text-search {
+  width: 155px;
+}

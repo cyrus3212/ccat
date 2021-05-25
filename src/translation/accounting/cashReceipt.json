@@ -1,0 +1,15 @@
+{
+  "pageTitle"       : "Cash Receipt Types",
+  "pageInstruction" : "Cash receipt types are a way to control which account is credited when a receipt is posted. This is especially helpful if some of the users who create cash receipts aren't familiar with the chart of accounts. For example, if a user is receipting money for a down payment, they no longer need to remember the down payment account number. They simply choose down payment from the list of cash receipt types, and the appropriate down payment account will be credited when they post the receipt.<br/><br/>Please note that using these types is NOT required. The credit account can still be manually entered when writing receipts. <strong>A separate method for receipting money is available for A/R customers, so it does not need to be listed here</strong><br/><br/>",
+  "pageInstruction2" : "In the table below, please record the description and the appropriate general ledger account for any cash receipt types you would like to use.",
+  "deletingAlert"   : "Deleting Cash Receipt Type",
+  "savingAlert"     : "Saving Cash Receipt Type",
+  "deleteError"     : "Unable to delete Cash Receipt Type",
+  "deleteSuccess"   : "Cash Receipt Type successfully deleted",
+  "saveSuccess"     : "Cash Receipt Type successfully updated",
+  "saveError"       : "Update Cash Receipt Type failed",
+  "accountNumberToCredit": "Account Number to Credit",
+  "vehicleDeposit"  : "Vehicle Deposit",
+  "typeCode"        : "Type Code",
+  "description"     : "Description"
+}

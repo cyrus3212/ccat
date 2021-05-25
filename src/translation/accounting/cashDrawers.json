@@ -1,0 +1,15 @@
+{
+  "pageTitle"               : "Cash Drawers:",
+  "pageInstruction"         : "Record the general ledger account number where deposits from each cash drawer should post to.",
+  "deletingAlert"           : "Deleting Cash Drawers",
+  "savingAlert"             : "Saving Cash Drawers",
+  "deleteError"             : "Unable to delete Cash Drawers",
+  "deleteSuccess"           : "Cash Drawers successfully deleted",
+  "saveSuccess"             : "Cash Drawers successfully updated",
+  "saveError"               : "Update Cash Drawers failed",
+  "depBankAccNum"           : "Deposit Bank Account Number",
+  "lastReceiptNum"          : "Last Receipt Number",
+  "overAccount"             : "Over/Short Account",
+  "description"             : "Description",
+  "accountNumber"           : "Account Number"
+}

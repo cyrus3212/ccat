@@ -1,0 +1,9 @@
+{
+  "pageTitle"       : "Pay Code Overrides",
+  "pageInstruction" : "",
+  "payCode": "Pay Code",
+  "companyNumber": "Company Number",
+  "otherPayCode": "Other Pay Code %",
+  "glAccount": "GL Account",
+  "distCode": "Distribution Code"
+}

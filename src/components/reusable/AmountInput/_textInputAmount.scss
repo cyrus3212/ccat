@@ -1,0 +1,28 @@
+@import '../../../assets/styles/variables.scss';
+
+.amount-input-container {
+  display: flex;
+  justify-content: flex-end;
+  // margin-right: -5px;
+}
+
+.amount-input {
+  position: relative;
+  width: 100%;
+
+  .input-wrapper {
+    margin-bottom: 0;
+  }
+
+  input {
+    padding-left: 20px;
+  }
+}
+
+#filteramount {
+  position: absolute;
+  left: -4px;
+  top: 12px;
+  color: #7b7b7b;
+}
+

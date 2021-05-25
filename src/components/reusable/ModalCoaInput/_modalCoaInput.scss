@@ -1,0 +1,62 @@
+@import '../../../assets/styles/variables.scss';
+
+.help-block-custom {
+  color: #c03;
+  // z-index: 99;
+  top: 40px;
+  min-height: 55px;
+}
+
+// .error-message {
+//   color: #c03;
+//   display: inline-block;
+//   font-size: 12px;
+//   line-height: 15px;
+//   margin: 5px 0 0;
+// }
+
+// .input-group .error-message {
+//   display: none;
+// }
+
+.input-group {
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+  input {
+    border-radius: 5px !important;
+  }
+}
+
+#text--filtercoasearch--floating {
+  right: -7px;
+  top: 37px;
+  position: absolute;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.coa-floating-result {
+  position: absolute;
+  z-index: 9;
+  background: white;
+  width: 95%;
+  box-shadow: 1px 1px 1px #ddd;
+  list-style: none;
+  max-height: 186px;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+  padding: 0;
+
+  &--item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+
+    &:hover {
+      background: #ddd;
+      cursor: pointer;
+    }
+  }
+}

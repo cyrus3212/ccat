@@ -1,0 +1,178 @@
+@import '../../../assets/styles/variables.scss';
+
+#tableEdifyLazyLoad {
+  table {
+    // table-layout: fixed;
+    width: 100%;
+
+    td {
+      padding: 6px 12px !important;
+    }
+
+    #SelectInput-label {
+      display: none;
+    }
+  }
+}
+
+.custom-form-control {
+  margin-bottom: 40px;
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+    label {
+      min-width: 162px;
+      text-align: right;
+      margin-right: 10px;
+    }
+
+    input {
+      max-width: 300px;
+    }
+
+    textarea {
+      max-width: 300px;
+    }
+  }
+}
+
+.hasError {
+  border: 1px solid $color-red;
+  border-radius: 5px;
+  position: relative;
+
+  &:hover {
+    span {
+      display: block;
+    }
+  }
+
+  span {
+    word-break: break-word;
+    left: 0;
+    color: $color-red;
+  }
+}
+
+.add-row-button {
+  button {
+    margin-top: 10px;
+  }
+}
+
+.table-delete-button {
+  background-color: transparent !important;
+  color: $color-red !important;
+  border: 1px solid transparent !important;
+  font-weight: bold;
+  outline: none !important;
+  box-shadow: none !important;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    background-color: transparent;
+    color: $color-red;
+    border: 1px solid transparent;
+    font-weight: bold;
+  }
+}
+
+.back-button {
+  margin-right: 10px;
+}
+
+.custom-modal-dialog {
+  .modal-dialog {
+    min-width: 750px;
+  }
+}
+
+.action-buttons {
+  button {
+    margin-right: 5px;
+  }
+
+  a {
+    margin-right: 5px;
+  }
+}
+
+tr:first-child {
+  .hasError {
+    .help-block,
+    .help-block-custom {
+      z-index: 99;
+      top: 40px;
+      min-height: 55px;
+    }
+  }
+}
+
+tr:last-child {
+  .dot-action {
+    .dropdown-menu {
+      bottom: 35px;
+      top: auto;
+    }
+  }
+}
+
+.rbt-aux {
+  span[aria-hidden=true] {
+    display: none;
+  }
+}
+
+.rbt-input-hint-container {
+  display: block;
+  border: 0;
+
+  input {
+    border: 0 !important;
+  }
+}
+
+.has-aux {
+  .rbt-input {
+    padding-right: 0 !important;
+  }
+}
+
+#tableEdify .row .col-md-6,
+#enterpriseList .row .col-md-6,
+#StoreList .row .col-md-6 {
+  float: right;
+
+  #TableSearchInput-label {
+    display: none;
+  }
+
+  #TableSearchInput {
+    width: 280px;
+    float: right;
+    margin-bottom: 10px;
+  }
+}
+
+.tableTitle {
+  // transform: translateY(35px);
+  &.hide-filter {
+    position: unset;
+  }
+
+  position: absolute;
+  display: inline-block;
+  font-weight: 500;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.notificationIcon {
+  margin-left: -15px;
+  margin-top: 5px;
+}

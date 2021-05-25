@@ -1,0 +1,27 @@
+@import '../../../assets/styles/variables.scss';
+
+.modal-amount-input-container {
+  display: flex;
+  justify-content: flex-end;
+  // margin-right: -5px;
+}
+
+.modal-amount-input {
+  position: relative;
+
+  .input-wrapper {
+    margin-bottom: 0;
+  }
+
+  input {
+    width: 100%;
+    padding-left: 20px;
+  }
+}
+
+#modal-filteramount {
+  position: absolute;
+  left: 10px;
+  top: 36px;
+  color: #7b7b7b;
+}

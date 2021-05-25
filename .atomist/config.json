@@ -1,0 +1,35 @@
+{
+  "shortName": "dtdmsccatui",
+  "deployType": "cloudfront",
+  "buildSetupEnvironment": "MGMT",
+  "environments": {
+    "development": {
+      "account": "DTDMSDEV",
+      "region": "us-east-1",
+      "s3Domain": "dtdms-test.io"
+    },
+    "integration": {
+      "account": "DTDMSINT",
+      "region": "us-east-1",
+      "s3Domain": "dtdms-test.io"
+    },
+    "production": {
+      "account": "DTDMSPROD",
+      "region": "us-east-1",
+      "s3Domain": "dtdms.io"
+    }
+  },
+  "terraform": {
+    "static": "terraform/static",
+    "codebuild": "terraform/codebuild"
+  },
+  "materialChangeExpressions": [],
+  "commands": {
+    "t_codebuild": "run terraform environment=development terraformFolder=terraform/codebuild region=US_EAST_1 terraformCommand=PLAN_APPLY terraformStateIdentifier=DEFAULT",
+    "t_plan_codebuild": "run terraform environment=development terraformFolder=terraform/codebuild region=US_EAST_1 terraformCommand=PLAN terraformStateIdentifier=DEFAULT",
+    "staticPlanDev": "run terraform environment=development terraformFolder=terraform/static vars='{\"key1\": \"value1\"}'"
+  },
+  "compileBuildSpecFilePath": "buildspec/buildspec_compile_remote.yml",
+  "versionFilePath": "package.json",
+  "bucketName": "dtdmsccatui"
+}

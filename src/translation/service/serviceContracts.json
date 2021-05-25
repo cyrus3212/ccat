@@ -1,0 +1,12 @@
+{
+  "pageTitle"               : "Service Contracts",
+  "pageInstruction"         : "Record the following information for each of your service contract companies. <strong><span style='color: gray'>Only record the service contract companies whose work you close to a receivable account</span></strong>, usually the service contracts you sell in F&I. Service contract companies that pay by credit at the time of sale do not need to be entered here. They will be handled a different way.",
+  "companyName"             : "Service Contract Company Name",
+  "receiveableAcct"         : "Receivable Account",
+  "customerNum"             : "Customer Number",
+  "printCost"               : "Print Cost",
+  "printTech"               : "Print Tech Time Log",
+  "active"                  : "Active",
+  "taxable"                 : "Taxable",
+  "serviceContract"         : "Service Contract List"
+}

@@ -1,0 +1,45 @@
+@import '../../../assets/styles/variables.scss';
+
+.help-block-custom {
+  color: #c03;
+  // z-index: 99;
+  top: 40px;
+  min-height: 55px;
+}
+
+.input-group {
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+  input {
+    border-radius: 5px !important;
+  }
+}
+
+.alphanumeric-text-input-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -10px;
+}
+
+.alphanumeric-text-input {
+  position: relative;
+  width: 100%;
+
+  .input-wrapper {
+    margin-bottom: 0;
+  }
+}
+
+#alphanumeric-filtersubmit {
+  position: absolute;
+  z-index: 1;
+  right: 18px;
+  top: 38px;
+  color: #7b7b7b;
+  cursor: "pointer";
+
+  &:hover {
+    cursor: pointer;
+  }
+}

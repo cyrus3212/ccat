@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "91807803-57a3-432f-8583-358b76bdb615",
+		"name": "dtmsotaui-qa",
+		"description": "DTDMS onboarding tool automation project. ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1-terraform/codebuild",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"dmsEnvironment\": \"MGMT\",\r\n  \"terraformCommand\": \"PLAN\",\r\n  \"terraformStateIdentifier\": \"DEFAULT\",\r\n  \"repoUrl\": \"https://ghe.coxautoinc.com/DMS/DTDMS.Onboarding.Tool.Automation.Client.git\",\r\n  \"commitId\": \"qa\",\r\n  \"folder\": \"terraform/codebuild\",\r\n  \"region\": \"US_EAST_1\",\r\n  \"variables\": {\r\n    \"short_name\": \"dtdmsccatui\",\r\n    \"git_repo_url\": \"https://ghe.coxautoinc.com/DMS/DTDMS.Onboarding.Tool.Automation.Client.git\"\r\n  }\r\n}"
+				},
+				"url": "https://terraform-service.dtdms.io/api/v1/terraform",
+				"description": "Run terraform apply on codebuild"
+			},
+			"response": []
+		},
+		{
+			"name": "2-terraform/static",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"dmsEnvironment\": \"DMSINT\",\r\n  \"terraformCommand\": \"PLAN\",\r\n  \"terraformStateIdentifier\": \"DEFAULT\",\r\n  \"repoUrl\": \"https://ghe.coxautoinc.com/DMS/DTDMS.Onboarding.Tool.Automation.Client.git\",\r\n  \"commitId\": \"qa\",\r\n  \"folder\": \"terraform/static\",\r\n  \"region\": \"US_EAST_1\",\r\n  \"variables\": {\r\n    \"short_name\": \"dtdmsccatui\",\r\n    \"current_env\": \"qa\"\r\n  }\r\n}"
+				},
+				"url": "https://terraform-service.dtdms.io/api/v1/terraform",
+				"description": "Run terraform apply on static folder"
+			},
+			"response": []
+		},
+		{
+			"name": "3-codebuild/invoke",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"projectName\": \"dtdmsccatui\",\n  \"buildNum\": \"1.0.1\",\n  \"sourceVersion\": \"qa\"\n}"
+				},
+				"url": "https://terraform-service.dtdms.io/api/v1/codebuild",
+				"description": "Run codebuild project to generate artifact before to deploy"
+			},
+			"response": []
+		},
+		{
+			"name": "4-copy-zip-from-mgmt-to-target-account-bucket",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"dmsEnvironment\": \"DMSINT\",\r\n  \"region\": \"us-east-1\",\r\n  \"copyFromBucketName\": \"584475343349-codebuild-cache-us-east-1\",\r\n  \"copyFromBucketObjectKey\": \"dtdmsccatui/34c63f6c-eea8-4a83-b802-f38051e42bf7/dtdmsccatui.zip\",\r\n  \"copyToBucketName\": \"dtdmsccatui-093605582799-us-east-1.dtdms-test.io\",\r\n  \"extract\": true\r\n}"
+				},
+				"url": "https://devops-helpers.dtdms.io/api/v1/S3/copy",
+				"description": "Copy artifact from MGMT codebuild bucket account to deploying account bucket"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": {
+			"token": "0c2f07524086239b1db02edc6e9b8accfa88be521f17b43ef64b5f6515d015c8"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "e6f47f40-a449-422f-aff9-802e55b325d5",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "e7d6c42a-649d-416c-b6b8-7cad8eff56b6",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

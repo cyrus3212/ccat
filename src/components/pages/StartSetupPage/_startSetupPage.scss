@@ -1,0 +1,23 @@
+.start-setup-page {
+  height: calc(100vh - 315px);
+
+  .block-text {
+    margin-top: 100px;
+  }
+
+  .setup-btn {
+    margin-top: 20px;
+  }
+}
+
+.forbidden {
+  &-page {
+    height: 100vh;
+  }
+
+  &-logout {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "pageTitle"                           : "Federal Tax and Other Accounting Setups",
+  "pageInstruction"                     : "Please complete the following setups pertaining to the accounting for your federal taxes.",
+
+  "employerIDNum"                       : "Employer Identification Number",
+  "employerIDNumDescription"            : "Please enter your 9-digit federal EIN number. This number prints on certain tax reports.",
+
+  "employeeFICAAcct"                    : "Employee FICA G/L Account",
+  "employeeFICAAcctDescription"         : "Record the liability account in which social security taxes accrue for the employee",
+
+  "employerFICAAcct"                    : "Employer FICA G/L Account",
+  "employerFICAAcctDescription"         : "Record the liability account in which social security taxes accrue for the dealership",
+
+  "employeeMedicareAcct"                : "Employee Medicare G/L Account",
+  "employeeMedicareAcctDescription"     : "Record the liability account in which Medicare taxes accrue for the employee",
+
+  "employerMedicareAcct"                : "Employer Medicare G/L Account",
+  "employerMedicareAcctDescription"     : "Record the liability account in which Medicare taxes accrue for the dealership",
+
+  "employerUnemploymentAcct"            : "Federal Unemployment G/L Account",
+  "employerUnemploymentAcctDescription" : "Record the liability account in which federal unemployment taxes accrue.",
+
+  "employeeFederalTaxAcct"              : "Employee Federal Tax G/L Account",
+  "employeeFederalTaxAcctDescription"   : "Record the liability account in which federal taxes accrue for the employee.",
+
+  "employerAdvancesAcct"                : "Employee Advances A/R Account",
+  "employerAdvancesAcctDescription"     : "Record the asset account in which payroll advances are paid out of. The balance for negative checks will post to this account.",
+
+  "payrollBankAcct"                     : "Payroll Bank Account",
+  "payrollBankAcctDescription"          : "Record the asset account associated with the bank account your employee’s paychecks are deducted from.",
+
+  "clearingAcct"                        : "Clearing Account for Direct Deposits",
+  "clearingAcctDescription"             : "Clearing account for Direct Deposits is <strong><u>only</u></strong> needed if the bank posts a lump sum entry to the clients bank statement. If the information is itemized, the DD detail this account is not required. This account is where the itemized detail will post too rather than the bank account so when they reconcile their statement it will have the lump sum entry as well.",
+
+  "employerRetirement"                  : "Employer Retirement Contribution G/L Account",
+  "employerRetirementDesc"              : "Record the liability account in which employer retirement contributions accrue.",
+
+  "accruedPayroll"                      : "Accrued Payroll Month-End Clearing Account",
+  "accruedPayrollDesc"                  : "Record the liability account to use for month-end accrued payroll (this is NOT your commissions payable account). The payroll month-end accrual account allows you to expense the wages associated with the payroll into one month, and have the liabilities (i.e. tax accounts and bank accounts) to be relieved in another month while keeping those transactions in two separate months in balance. In other words, the payroll month-end accrual account will have a big credit to offset the expenses in the month of the period end date, and there will be a corresponding debit in the month with the check date."
+
+}

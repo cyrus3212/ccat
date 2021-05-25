@@ -1,0 +1,22 @@
+{
+  "pageTitle"               : "Service Types",
+  "pageInstruction"         : "Service Types control the labor rates, parts pricing (on repair orders), labor accounting, and other settings as well. It is best to set up one service type for each of your most commonly used categories of service that unique labor rates, parts pricing, or accounting.",
+  "serviceType"             : "Service Type",
+  "description"             : "Description",
+  "glAccountForSublet"      : "GL Account for Sublet Sales",
+  "carSubletAccount"        : "Car Sublet Account",
+  "truckSubletAccount"      : "Truck Sublet Account",
+  "hazardousMaterial"       : "Hazardous Material",
+  "hazardousMaterialAccnt"  : "Hazardous Material Account",
+  "glAccountForPaint"       : "GL Account for Paint & Materials",
+  "paintMaterials"          : "Paint & Materials Account",
+  "miscChargesAccount"      : "Misc Charges Account",
+  "shopSupplies"            : "Shop Supplies",
+  "sAccount"                : "Account",
+  "sPercentage"             : "Percentage",
+  "sLimit"                  : "Limit",
+  "salesTax"                : "Sales Tax on Paint & Materials",
+  "activeFlag"              : "Active Flag",
+  "defaultTaxGroup"         : "Default Tax Group",
+  "serviceTypesList"        : "Service Types List"
+}

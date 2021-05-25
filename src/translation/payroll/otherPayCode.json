@@ -1,0 +1,7 @@
+{
+  "pageTitle": "Other Pay Codes",
+  "pageInstruction1": "Other pay codes control the accounting and reporting accumulation for nonregular pay. These are comparable to \"earnings codes\" in your previous DMS. Common examples of other pay codes include: commission, jury duty, bonus, and vacation.<br/><br/>",
+  "pageInstruction2": "The following four pay codes are system defined in the Dealertrack DMS, and must be used regardless of what code was for these items in your current system:<br/><br/>",
+  "pageInstruction3": "<div><ul><li><b><span style='color: gray'>VAC: Vacation</span></b></li><li><b><span style='color: gray'>PTO: Paid Time Off</span></b></li><li><b><span style='color: gray'>HOL: Holiday</span></b></li><li><b><span style='color: gray'>OVT: Overtime</span></b></li></ul></div>",
+  "pageInstruction4": "Please note that on the paycheck stub, two different subtotals will likely display for the other pay type, if a different code was used on your prior system."
+}

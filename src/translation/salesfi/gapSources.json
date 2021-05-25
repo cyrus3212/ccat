@@ -1,0 +1,21 @@
+{
+  "pageTitle"          : "Gap Insurance",
+  "pageInstruction"    : "Using the information below as a reference, please enter all available gap insurance providers in the related tabs of the attached spreadsheet.",
+  "provider"           : "Provider",
+  "iCompanyName"       : "Insurance Company Name",
+  "iAddress"           : "Address",
+  "iCity"              : "City",
+  "iState"             : "State",
+  "iZipCode"           : "ZIP Code",
+  "iPhoneNum"          : "Phone Number",
+  "iContactName"       : "Contact Name",
+  "accting"            : "Accounting",
+  "aGapPremium"        : "Gap Premium",
+  "aPayableAcct"       : "Payable Account",
+  "aTaxable"           : "Taxable",
+  "aCommRate"          : "Commission Rate",
+  "aGapCost"           : "Gap Cost",
+  "aPayableVendor"     : "Payable Vendor",
+  "aPaymentFormula"    : "Payment Formula",
+  "iRecordItems"       : "Gap Insurance Record Items"
+}

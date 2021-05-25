@@ -1,0 +1,61 @@
+@import '../../../assets/styles/variables.scss';
+
+.wrap-form-box {
+  padding: 12px 40px;
+  padding-bottom: 50px;
+
+  .show-grid {
+    margin-bottom: 0;
+
+    b {
+      margin-top: 20px;
+    }
+
+    input {
+      top: 3px;
+    }
+
+    .width_percent_75 {
+      input {
+        width: 75%;
+      }
+    }
+  }
+}
+
+.form-horizontal {
+  .radio-options {
+    label {
+      color: black;
+      font-weight: 600;
+    }
+  }
+}
+
+.gray-text-label {
+  color: gray;
+  font-weight: normal;
+}
+
+.wrap-text-with-description {
+  .form-group {
+    label {
+      margin: 0;
+    }
+
+    input {
+      width: 80%;
+    }
+
+    &.field-description {
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 16px;
+      padding-bottom: 28px;
+    }
+  }
+}
+
+hr {
+  border-color: #ddd;
+}

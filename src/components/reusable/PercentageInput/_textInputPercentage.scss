@@ -1,0 +1,25 @@
+@import '../../../assets/styles/variables.scss';
+
+.text-percentage-input {
+  position: relative;
+  width: 100%;
+
+  .input-wrapper {
+    margin-bottom: 0;
+  }
+
+  input {
+    padding-right: 45px;
+  }
+}
+
+#text-filterpercentage {
+  position: absolute;
+  right: 5px;
+  top: 11px;
+  color: #7b7b7b;
+}
+
+.percentage-padding {
+  padding-right: 25px;
+}

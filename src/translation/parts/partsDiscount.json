@@ -1,0 +1,12 @@
+{
+  "pageTitle"               : "Parts Discount Entry",
+  "pageInstruction"         : "This feature will allow you to discount a parts counter ticket by a predetermined amount. A discount can be percent of parts, a percent up to a dollar max, or a flat dollar discount amount. If a counter person is authorized to discounts, they can add or remove discounts from parts tickets.",
+  "description"             : "Description",
+  "discountType"            : "Discount Type",
+  "percentage"              : "Percentage",
+  "pDiscount"               : "Discount",
+  "pUpTo"                   : "Up To",
+  "flatAmount"              : "Flat Amount",
+  "glAccount"               : "G/L Account",
+  "partsDiscountList"       : "Parts Discount List"
+}

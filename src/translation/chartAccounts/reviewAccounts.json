@@ -1,0 +1,22 @@
+{
+  "pageTitle"               : "Help us review your chart of accounts",
+  "pageInstruction"         : "We've scraped your data and found all of the chart of accounts we have on file for you. Please review and make any edits you need to.",
+  "succesUpdateAccount"     : "Account successfully updated.",
+  "failedUpdateAccount"     : "Update account failed.",
+  "successAddAccount"       : "Account successfully added.",
+  "failedAddAccount"        : "Add account failed.",
+  "addAccount"              : "Add Account",
+  "messageTip"              : "Click Ok to refresh",
+  "messageAlert"            : "Error fetching data",
+  "unableUpdateMessage"     : "Unable to save update. Please check fields with error(s).",
+  "importingDataMessage"    : "Importing Data. Please wait.",
+  "importingDataSuccess"    : "Import data successful.",
+  "importingDataFailed"     : "Import data failed.",
+  "removingPrefix"          : "Removing prefix. Please wait.",
+  "removingPrefixComplete"  : "Removing prefix complete.",
+  "insertingPrefix"         : "Inserting prefix. Please wait.",
+  "successInsertPrefix"     : "Inserting prefix complete.",
+  "errorInsertPrefix"       : "Unable to set prefix.",
+  "errorRemovePrefix"       : "Unable to remove prefix.",
+  "warningPrefix"           : "were not added with prefix. Please select Export File to save the list or click Close to proceed without saving."
+}

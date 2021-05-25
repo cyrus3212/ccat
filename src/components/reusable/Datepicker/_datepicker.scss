@@ -1,0 +1,12 @@
+@import '../../../assets/styles/variables.scss';
+
+.help-block.custom-error {
+  color: #db4028;
+  margin-left: -15px;
+}
+
+#display-error.has-custom-error {
+  input {
+    border: 1px solid #db4028 !important;
+  }
+}

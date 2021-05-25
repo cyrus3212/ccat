@@ -1,0 +1,41 @@
+$width : 133px;
+$indicatorWidth: 142px;
+
+.custom-tab {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  margin-bottom: 40px;
+
+  .custom-tab-active-indicator {
+    height: 2px;
+    background-color: #1890ff;
+    position: absolute;
+    width: $width;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    transition: 0.3s all cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  span:not(.custom-tab-active-indicator) {
+    margin: 0 20px;
+    padding: 10px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &.tab-1 {
+    .custom-tab-active-indicator {
+      left: $indicatorWidth;
+    }
+  }
+
+  &.tab-2 {
+    .custom-tab-active-indicator {
+      left: $indicatorWidth * 2;
+    }
+  }
+}

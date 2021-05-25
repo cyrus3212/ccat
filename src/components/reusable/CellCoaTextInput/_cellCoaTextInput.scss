@@ -1,0 +1,50 @@
+.cell-coasearch-input {
+  position: relative;
+  width: 100%;
+
+  .input-wrapper {
+    margin-bottom: 0;
+  }
+
+  input {
+    padding-right: 45px;
+  }
+}
+
+#cell-filtercoasearch {
+  position: absolute;
+  right: 5px;
+  top: 11px;
+  color: #7b7b7b;
+}
+
+.cell-coasearch-padding {
+  padding-right: 10px;
+}
+
+.form-coa-search {
+  .coainput-floating-result {
+    width: 400px;
+  }
+
+  li {
+    b {
+      margin: 0 !important;
+      display: inline-block !important;
+      font-size: 12px !important;
+    }
+  }
+}
+
+// .isDisabled__formGroup {
+//   pointer-events: none;
+
+//   &:hover {
+//     cursor: pointer;
+//   }
+
+//   input {
+//     pointer-events: none;
+//     background: white !important;
+//   }
+// }

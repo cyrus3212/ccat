@@ -1,0 +1,57 @@
+@import '../../../assets/styles/variables.scss';
+
+.help-block-custom {
+  color: #c03;
+  // z-index: 99;
+  top: 40px;
+  min-height: 55px;
+}
+
+// .error-message {
+//   color: #c03;
+//   display: inline-block;
+//   font-size: 12px;
+//   line-height: 15px;
+//   margin: 5px 0 0;
+// }
+
+// .input-group .error-message {
+//   display: none;
+// }
+
+.input-group {
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+  input {
+    border-radius: 5px !important;
+  }
+}
+
+.modal-text-input-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -10px;
+}
+
+.modal-text-input {
+  position: relative;
+  width: 100%;
+
+  .input-wrapper {
+    margin-bottom: 0;
+  }
+}
+
+#modal-textinput-filtersubmit {
+  position: absolute;
+  z-index: 1;
+  right: 18px;
+  top: 38px;
+  color: #7b7b7b;
+  cursor: "pointer";
+
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "pageTitle"          : "Accessories",
+  "pageInstruction"    : "Using the information below as a reference, please enter the accessories currently sold by the sales department.",
+  "description"        : "Description",
+  "amountNew"          : "Amount New",
+  "cost"               : "Cost",
+  "taxable"            : "Taxable",
+  "included"           : "Included",
+  "vendor"             : "Vendor",
+  "addToPrice"         : "Add to Price",
+  "active"             : "Active Y/N",
+  "residual"           : "Residual",
+  "accessoriesList"    : "Accessories List"
+}

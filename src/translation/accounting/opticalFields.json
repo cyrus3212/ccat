@@ -1,0 +1,12 @@
+{
+  "pageTitle"               : "Custom Vehicle Inventory Field Entry Table",
+  "pageInstruction"         : "Using the table below, please list any custom inventory fields you would like to have added to the inventory record in the Dealertrack DMS.",
+  "defaultHoldbackAcct"     : "Default Holdback Account",
+  "defaultHBtext"           : "Record the asset account to debit for the amount of the vehicle holdback when the vehicle is stocked in.",
+  "defaultFlooringAcct"     : "Default Flooring Account (New Vehicles)",
+  "defaultFAtext"           : "Record the liability account to credit for the amount of the vehicle flooring when a new vehicle is stocked in.",
+  "defaultPayoffAcct"       : "Default Flooring Account (Used Vehicles)",
+  "defaultPAtext"           : "Record the liability account to credit for the amount of the payoff when a used vehicle is stocked in.",
+  "addCustomField"          : "Add Custom Field",
+  "accntTypList"            : "Account Type List"
+}

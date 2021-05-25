@@ -1,0 +1,10 @@
+{
+  "pageTitle"               : "Tax Group Setups: Parts and Services",
+  "pageInstruction"         : "Please use the table below to enter your tax groups for parts and service.",
+  "deletingAlert"           : "Deleting Account",
+  "savingAlert"             : "Saving Tax Group",
+  "deleteError"             : "Unable to delete Tax Group",
+  "deleteSuccess"           : "Tax Group successfully deleted",
+  "saveSuccess"             : "Tax Group successfully updated",
+  "saveError"               : "Update Tax Group failed"
+}

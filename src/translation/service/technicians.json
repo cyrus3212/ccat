@@ -1,0 +1,15 @@
+{
+  "pageTitle"               : "Technicians",
+  "pageInstruction"         : "Workbook pages description here.",
+  "deletingAlert"           : "Deleting Payment Method Account",
+  "savingAlert"             : "Saving Payment Method Account",
+  "deleteError"             : "Unable to delete Payment Method Account",
+  "deleteSuccess"           : "Account Payable Vendor Type successfully deleted",
+  "saveSuccess"             : "Account Payable Vendor Type successfully updated",
+  "saveError"               : "Update Payment Method Account failed",
+  "techID"                  : "Technician ID",
+  "techName"                : "Name",
+  "empNum"                  : "Employee Number",
+  "techPass"                : "Password",
+  "customerLabor"           : "Customer Labor Cost"
+}

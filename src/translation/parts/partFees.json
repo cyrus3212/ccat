@@ -1,0 +1,17 @@
+{
+  "pageTitle"               : "Parts Fees",
+  "pageInstruction"         : "Parts Fees can be pre-defined for items such as handling, hazardous materials, disposal, tire fees, etc. The fee can be set as a percentage of the parts, a fixed dollar amount, or a variable amount. Fees can be automatically or manually added to counter tickets. Please use the information below for assistance completing the following pages with the necessary fees.",
+  "description"             : "Description",
+  "included"                : "Included",
+  "taxable"                 : "Taxable",
+  "active"                  : "Active",
+  "feeType"                 : "Fee Type",
+  "percentage"              : "Percentage",
+  "pPercentage"             : "Perncetage",
+  "dollarAmount"            : "Dollar Amount",
+  "dAmount"                 : "Amount",
+  "variable"                : "Variable",
+  "vMaxAmount"              : "Max Amount",
+  "glAccount"               : "G/L Account",
+  "partsFeeList"            : "Parts Fee List"
+}

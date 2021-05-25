@@ -1,0 +1,15 @@
+{
+  "pageTitle"               : "Accounting Questions",
+  "pageInstruction"         : "Please complete the following settings so that we can configure your general ledger correctly.",
+  "acctDept"                : "Accounting Department: Retained Earnings Account",
+  "acctDeptDescription"     : "Record the G/L account number used for retained earnings. This account may also be called the “Profit/Loss Account.” <br/><br/> Important: If your store uses intercompany accounting, and has multiple retained earnings accounts, please contact your ACT specialist and project manager so that the necessary preparations can be made.",
+  "servDept"                : "Service Department: Deductible Received Account",
+  "servDeptDescription"     : "Enter the liability account that is credited with the amount of the deductible when the repair order is closed. This is the holding account for customer-paid deductibles. The account will be cleared when payment is received from the service contract or warranty company.",
+  "partsDept"               : "Parts Department: Special Order Account",
+  "partsDeptDescription"    : "When special order deposits are collected, the system will post the deposit amount as a credit to this account. When the part arrives, the parts department selects the special order and the system bills out the part, and applies the deposit to the invoice. When that invoice is closed, the special order deposit account is automatically zeroed-out, and the money is posted to the applicable sale/tax accounts. Please enter the liability account that you would like to credit when special order deposits are collected.",
+  "partsDeptFA"             : "Parts Department: Freight Account",
+  "partsDeptDescriptionFA"  : "Enter the general ledger account number that should be credited with the amount of freight on parts tickets.",
+  "savingAlert"             : "Saving General Departmental Accounting Questions.",
+  "saveSuccess"             : "General Departmental Accounting Questions successfully updated",
+  "saveError"               : "Update General Departmental Accounting Questions failed"
+}

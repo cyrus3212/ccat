@@ -1,0 +1,27 @@
+@import '../../../assets/styles/variables.scss';
+
+.custom-form-group {
+  text-align: right;
+
+  .form-group {
+    margin-bottom: 7px;
+
+    label {
+      margin-top: 8px;
+    }
+  }
+}
+
+#distributionCodes {
+  #distributionCodesItemList {
+    overflow-x: auto;
+
+    input {
+      width: 125px;
+    }
+  }
+}
+
+.general-setup-form .vertical .radio-options label.label-vertical {
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+{
+  "pageTitle"               : "Restocking Charge for Returned Parts",
+  "pageInstruction"         : "If a restocking fee is charged when parts are returned to the dealership, please complete the following page. Restocking charges can be a percentage of parts, a percentage up to a maximum dollar amount, or a flat dollar amount.",
+  "automaticallyAllReturn"  : "Automatically Include for All Returns",
+  "autoYes"                 : "<b>Yes</b> <br/>A restocking charge will automatically be applied to all parts returns.",
+  "autoNo"                  : "<b>No</b> <br/>Restocking charges won't be automatically applied, but can be easily added manually to returns as needed.",
+  "includeCoreReturns"      : "Include for Core Returns",
+  "coreReturnYes"           : "<b>Yes</b> <br/>A restocking charge will automatically be applied when core parts numbers are returned.",
+  "coreReturnNo"            : "<b>No</b> <br/>Restocking charges won't be automatically applied to core returns, but can be easily added manually as needed.",
+  "percent"                 : "Percent",
+  "percentText"             : "If the restocking charge should be a percentage of the total returned parts (not a flat dollar amount), enter the percentage that should be applied.",
+  "maxRestockingCharge"     : "Maximum Restocking Charge",
+  "maxRestockingChargeText" : "Enter the maximum dollar amount to be charged as a restocking fee. For example, if the charge should be 15% up to %20.00, enter '20'.",
+  "amount"                  : "Amount",
+  "amountText"              : "If the restocking charge should always be a flat dollar amount regardless of the total value of the returned parts, enter the dollar amount that should be applied.",
+  "account"                 : "Account",
+  "accountText"             : "Enter the G/L income account to be credited for the restocking charge."
+}

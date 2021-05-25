@@ -1,0 +1,17 @@
+{
+  "pageTitle"          : "Split Accounts",
+  "pageInstruction"    : "Split accounts are used to automatically divide expenses between the departments of the dealership. Many dealerships split fixed expenses based on established percentages.",
+  "splitKey"           : "Split Key",
+  "description"        : "Description",
+  "splitAccountList"   : "Split Account List",
+  "deletingAlert"      : "Deleting Account",
+  "savingAlert"        : "Saving Account",
+  "deleteError"        : "Unable to delete Account",
+  "deleteSuccess"      : "Account successfully deleted",
+  "saveSuccess"        : "Account successfully updated",
+  "saveError"          : "Update Account failed",
+  "account"            : "Account Number",
+  "splitPercent"       : "% Allocation",
+  "splitAmount"        : "Amount",
+  "controlOverride"    : "Control #"
+}

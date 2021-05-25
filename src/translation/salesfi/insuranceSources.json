@@ -1,0 +1,20 @@
+{
+  "pageTitle"          : "Credit Life and Accident & Health Insurance",
+  "pageInstruction"    : "Using the information below as a reference, please enter all available credit life and A&H insurance providers in the related tabs of the attached spreadsheet.",
+  "providers"          : "Providers",
+  "iCompanyName"       : "Insurance Company Name",
+  "iAddress"           : "Address",
+  "iCounty"            : "County",
+  "iStateCode"         : "State Code",
+  "iPhoneNumber"       : "Phone Number",
+  "iContactName"       : "Contact Name",
+  "acctng"             : "Accounting",
+  "creditLife"         : "Credit Life",
+  "accidentHealth"     : "Accident & Health",
+  "useTableRate"       : "Use Rate Table",
+  "decreasingRate"     : "Decreasing Rate per $100 per Year",
+  "levelRate"          : "Level Rate Per $100 per Year",
+  "commissionRates"    : "Commission Rates",
+  "iSourcesRecordItems": "Insurance Sources Record Items",
+  "payableAccount"     : "Payable Account"
+}

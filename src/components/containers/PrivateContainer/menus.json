@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "chart-of-accounts",
+      "label": "Chart Of Accounts",
+      "tooltip": "Chart Of Accounts"
+    },
+    {
+      "id": 2,
+      "name": "accounting",
+      "label": "Accounting",
+      "tooltip": "Accounting"
+    },
+    {
+      "id": 3,
+      "name": "sales-fi",
+      "label": "Sales / F&I",
+      "tooltip": "Sales / F&I"
+    },
+    {
+      "id": 4,
+      "name": "parts",
+      "label": "Parts",
+      "tooltip": "Parts"
+    },
+    {
+      "id": 5,
+      "name": "service",
+      "label": "Service",
+      "tooltip": "Service"
+    },
+    {
+      "id": 6,
+      "name": "payroll",
+      "label": "Payroll",
+      "tooltip": "Payroll"
+    }
+  ]

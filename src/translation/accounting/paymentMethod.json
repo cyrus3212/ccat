@@ -1,0 +1,17 @@
+{
+  "pageTitle"         : "Payment Method Entry Table",
+  "pageInstruction"   : "Please use the table below to enter your payment methods. Refer to the definitions on the previous page for information about each field.",
+  "deletingAlert"     : "Deleting Payment Method Account",
+  "savingAlert"       : "Saving Payment Method Account",
+  "deleteError"       : "Unable to delete Payment Method Account",
+  "deleteSuccess"     : "Payment Method successfully deleted",
+  "saveSuccess"       : "Payment Method successfully updated",
+  "saveError"         : "Update Payment Method Account failed",
+  "code"              : "Code",
+  "description"       : "Description",
+  "glAccount"         : "G/L Account",
+  "transFeePercent"   : "Trans Fee: Percent",
+  "transFeeAccount"   : "Trans Fee: Account",
+  "bankAcc"           : "Bank Account",
+  "paymentType"       : "Payment Type"
+}
